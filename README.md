@@ -77,7 +77,6 @@ The following query returns all courses with an average grade greater than 85, p
 ## Project Structure
 
 ```md
-```text
 CampusInsights/
 ├── src/                # Core backend logic and query engine
 ├── frontend/           # Lightweight web frontend
