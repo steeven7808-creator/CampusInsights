@@ -39,7 +39,6 @@ logical operators, and projection over ingested datasets.
 The following query returns all courses with an average grade greater than 85,
 projecting selected fields and ordering results by average grade.
 
-```md
 ```json
 {
   "WHERE": {
@@ -77,6 +76,7 @@ projecting selected fields and ordering results by average grade.
 
 ## Project Structure
 
+```md
 ```text
 CampusInsights/
 ├── src/                # Core backend logic and query engine
@@ -90,6 +90,7 @@ CampusInsights/
 
 ## How to Run
 
+```md
 ```bash
 yarn install
 yarn build
