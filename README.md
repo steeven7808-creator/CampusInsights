@@ -41,3 +41,14 @@ The system is designed with a strong emphasis on data modeling, query validation
 
 ## Project Structure
 
+```text
+CampusInsights/
+├── src/                # Core backend logic and query engine
+├── frontend/           # Lightweight web frontend
+├── test/               # Integration tests
+├── test-unit/          # Unit tests
+├── test_template/      # Reference tests and sample resources
+├── package.json        # Project dependencies and scripts
+├── tsconfig.json       # TypeScript configuration
+└── README.md
+
