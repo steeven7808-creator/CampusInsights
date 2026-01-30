@@ -1,41 +1,80 @@
-# CampusInsights
+## CampusInsights
 
-CampusInsights is a full-stack TypeScript project that ingests, processes, and queries large-scale structured datasets to support fast, flexible analytical queries over real-world data.
+CampusInsights is a full-stack TypeScript application that ingests, processes, and queries large-scale campus course and classroom datasets to support fast, flexible analytical queries over real-world academic data.
 
-The system is designed with a strong emphasis on data modeling, query validation, and performance-aware execution, providing a robust backend service and a simple frontend interface for interacting with the data.
+The system is built around a custom data ingestion pipeline and query execution engine, with a strong emphasis on schema validation, correctness, and performance-aware backend design. A lightweight web-based frontend enables users to submit structured queries and explore query results through a clean API-driven interface.
 
 ---
 
 ## Key Features
 
-- **Data Ingestion Pipeline**
-  - Supports importing structured datasets from compressed archives (ZIP)
-  - Performs schema validation and data normalization during ingestion
-  - Persists processed datasets for efficient querying
+### Data Ingestion Pipeline
+- Ingests structured datasets from compressed ZIP archives
+- Performs schema validation and data normalization to ensure correctness
+- Persists processed data in a format optimized for repeated analytical queries
 
-- **Custom Query Engine**
-  - Supports complex query expressions including filtering, comparisons, and logical operators
-  - Validates query structure and semantics before execution
-  - Designed for extensibility and correctness over malformed inputs
+### Custom Query Engine
+- Implements a custom JSON-based query language supporting filtering, comparisons, and logical operators
+- Validates query structure and semantics prior to execution to prevent malformed queries
+- Designed with extensibility and correctness as first-class concerns
 
-- **Backend Service**
-  - Implemented in TypeScript with a modular architecture
-  - Exposes a service interface for dataset management and querying
-  - Includes comprehensive unit and integration tests
+### Backend Service
+- Implemented in TypeScript with a modular, service-oriented architecture
+- Exposes a well-defined API for dataset management and query execution
+- Backed by comprehensive unit and integration tests to ensure reliability
 
-- **Frontend Interface**
-  - Lightweight frontend for submitting queries and visualizing results
-  - Communicates with backend services through a defined API layer
+### Frontend Interface
+- Lightweight web-based UI for submitting queries and visualizing results
+- Communicates with backend services through a defined REST API layer
+
+---
+
+## Query Engine Interface
+
+The backend exposes a custom JSON-based query language that supports filtering,
+logical operators, and projection over ingested datasets.
+
+### Example Query
+
+The following query returns all courses with an average grade greater than 85,
+projecting selected fields and ordering results by average grade.
+
+```json
+{
+  "WHERE": {
+    "GT": {
+      "courses_avg": 85
+    }
+  },
+  "OPTIONS": {
+    "COLUMNS": ["courses_dept", "courses_id", "courses_avg"],
+    "ORDER": "courses_avg"
+  }
+}
 
 ---
 
 ## Tech Stack
 
-- **Languages:** TypeScript
-- **Backend:** Node.js
-- **Frontend:** Web-based UI (TypeScript / JavaScript)
-- **Tooling:** Yarn, ESLint, Prettier
-- **Testing:** Automated unit and integration tests
+**Languages**
+- TypeScript
+
+**Backend**
+- Node.js
+- Express
+- RESTful API design
+
+**Frontend**
+- Web-based UI (TypeScript / JavaScript)
+
+**Tooling**
+- Yarn
+- ESLint
+- Prettier
+
+**Testing**
+- Automated unit and integration tests (Mocha / Chai)
+
 
 ---
 
@@ -51,4 +90,11 @@ CampusInsights/
 ├── package.json        # Project dependencies and scripts
 ├── tsconfig.json       # TypeScript configuration
 └── README.md
+
+## How to Run
+
+```bash
+yarn install
+yarn build
+yarn start
 
