@@ -1,27 +1,43 @@
-# CPSC 310 Project Repository
+# CampusInsights
 
+CampusInsights is a full-stack TypeScript project that ingests, processes, and queries large-scale structured datasets to support fast, flexible analytical queries over real-world data.
 
-## Configuring your environment
+The system is designed with a strong emphasis on data modeling, query validation, and performance-aware execution, providing a robust backend service and a simple frontend interface for interacting with the data.
 
-To start using this project, you need to get your development environment configured so that you can build and execute the code.
-To do this, follow these steps; the specifics of each step will vary based on your operating system:
+---
 
-1. [Install Node LTS](https://nodejs.org/en/download/) (LTS: v18.X), which will also install NPM (you should be able to execute `node --version` and `npm --version` on the command line).
+## Key Features
 
-1. [Install Yarn](https://yarnpkg.com/en/docs/install) (1.22.X). You should be able to execute `yarn --version`.
+- **Data Ingestion Pipeline**
+  - Supports importing structured datasets from compressed archives (ZIP)
+  - Performs schema validation and data normalization during ingestion
+  - Persists processed datasets for efficient querying
 
+- **Custom Query Engine**
+  - Supports complex query expressions including filtering, comparisons, and logical operators
+  - Validates query structure and semantics before execution
+  - Designed for extensibility and correctness over malformed inputs
 
-## Project commands
+- **Backend Service**
+  - Implemented in TypeScript with a modular architecture
+  - Exposes a service interface for dataset management and querying
+  - Includes comprehensive unit and integration tests
 
-Once your environment is configured you need to further prepare the project's tooling and dependencies.
-In the project folder:
+- **Frontend Interface**
+  - Lightweight frontend for submitting queries and visualizing results
+  - Communicates with backend services through a defined API layer
 
-1. `yarn install` to download the packages specified in the project's *package.json* to the *node_modules* directory.
+---
 
-1. `yarn build` to compile the project.
+## Tech Stack
 
-1. `yarn test` to run the test suite.
+- **Languages:** TypeScript
+- **Backend:** Node.js
+- **Frontend:** Web-based UI (TypeScript / JavaScript)
+- **Tooling:** Yarn, ESLint, Prettier
+- **Testing:** Automated unit and integration tests
 
-1. `yarn lint` to lint the project code.
+---
 
-1. `yarn pretty` to prettify the project code.
+## Project Structure
+
