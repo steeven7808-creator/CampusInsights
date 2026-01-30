@@ -39,6 +39,7 @@ logical operators, and projection over ingested datasets.
 The following query returns all courses with an average grade greater than 85,
 projecting selected fields and ordering results by average grade.
 
+```md
 ```json
 {
   "WHERE": {
@@ -51,8 +52,6 @@ projecting selected fields and ordering results by average grade.
     "ORDER": "courses_avg"
   }
 }
-
----
 
 ## Tech Stack
 
