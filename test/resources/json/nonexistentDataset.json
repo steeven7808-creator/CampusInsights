@@ -1,0 +1,20 @@
+{
+	"title": "nonexistent dataset",
+	"input": {
+		"WHERE": {
+			"GT": {
+				"nonexistent_avg": 97
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"nonexistent_dept",
+				"nonexistent_course",
+				"nonexistent_avg"
+			],
+			"ORDER": "nonexistent_avg"
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

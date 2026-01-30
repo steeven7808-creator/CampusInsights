@@ -1,0 +1,19 @@
+{
+	"title": "multiple datasets",
+	"input": {
+		"WHERE": {
+			"GT": {
+				"sections_avg": 97
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"wack_dept",
+				"sections_avg"
+			],
+			"ORDER": "sections_dog"
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

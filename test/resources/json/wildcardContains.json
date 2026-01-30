@@ -1,0 +1,280 @@
+{
+	"title": "wildcard contains",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"sections_title": "*dd*"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sections_title"
+			],
+			"ORDER": "sections_title"
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_dept": "arth",
+			"sections_title": "art middle ages"
+		},
+		{
+			"sections_dept": "arth",
+			"sections_title": "art middle ages"
+		},
+		{
+			"sections_dept": "arth",
+			"sections_title": "art middle ages"
+		},
+		{
+			"sections_dept": "arth",
+			"sections_title": "art middle ages"
+		},
+		{
+			"sections_dept": "arth",
+			"sections_title": "art middle ages"
+		},
+		{
+			"sections_dept": "arth",
+			"sections_title": "art middle ages"
+		},
+		{
+			"sections_dept": "arth",
+			"sections_title": "art middle ages"
+		},
+		{
+			"sections_dept": "arth",
+			"sections_title": "art middle ages"
+		},
+		{
+			"sections_dept": "arth",
+			"sections_title": "art middle ages"
+		},
+		{
+			"sections_dept": "arth",
+			"sections_title": "art middle ages"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "buddhism china"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "buddhism china"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "buddhism china"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "buddhism china"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "buddhism china"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "buddhism china"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "buddhism china"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "buddhism china"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "buddhism china"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "buddhism china"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "buddhism china"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "buddhism china"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "buddhism china"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "buddhism china"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "intro buddhism"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "intro buddhism"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "intro buddhism"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "intro buddhism"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "intro buddhism"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "intro buddhism"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "intro buddhism"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "intro buddhism"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "intro buddhism"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "intro buddhism"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "intro buddhism"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "intro buddhism"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "intro buddhism"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "intro buddhism"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "intro buddhism"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "intro buddhism"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "intro buddhism"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "intro buddhism"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "intro buddhism"
+		},
+		{
+			"sections_dept": "ital",
+			"sections_title": "lit middle ages"
+		},
+		{
+			"sections_dept": "ital",
+			"sections_title": "lit middle ages"
+		},
+		{
+			"sections_dept": "spph",
+			"sections_title": "sbst use addictn"
+		},
+		{
+			"sections_dept": "spph",
+			"sections_title": "sbst use addictn"
+		},
+		{
+			"sections_dept": "spph",
+			"sections_title": "sbst use addictn"
+		},
+		{
+			"sections_dept": "spph",
+			"sections_title": "sbst use addictn"
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_title": "sowk prac addict"
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_title": "sowk prac addict"
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_title": "sowk prac addict"
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_title": "sowk prac addict"
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_title": "sowk prac addict"
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_title": "sowk prac addict"
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_title": "sowk prac addict"
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_title": "sowk prac addict"
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_title": "sowk prac addict"
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_title": "sowk prac addict"
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_title": "sowk prac addict"
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_title": "sowk prac addict"
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_title": "sowk prac addict"
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_title": "sowk prac addict"
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_title": "sowk prac addict"
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_title": "sowk prac addict"
+		}
+	]
+}

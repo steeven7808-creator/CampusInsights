@@ -1,0 +1,29 @@
+{
+	"title": "invalid key scomparison",
+	"input": {
+		"WHERE": {
+			"AND": [
+				{
+					"IS": {
+						"asdf": "d*"
+					}
+				},
+				{
+					"IS": {
+						"sections_instructor": "*d"
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sections_title",
+				"sections_instructor"
+			],
+			"ORDER": "sections_dept"
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

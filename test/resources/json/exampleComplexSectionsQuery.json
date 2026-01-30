@@ -1,0 +1,86 @@
+{
+	"title": "example complex sections query",
+	"input": {
+		"WHERE": {
+			"AND": [
+				{
+					"IS": {
+						"sections_dept": "*cpsc*"
+					}
+				},
+				{
+					"GT": {
+						"sections_avg": 90
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_title",
+				"maxFail"
+			],
+			"ORDER": {
+				"dir": "DOWN",
+				"keys": [
+					"maxFail"
+				]
+			}
+		},
+		"TRANSFORMATIONS": {
+			"GROUP": [
+				"sections_title"
+			],
+			"APPLY": [
+				{
+					"maxFail": {
+						"MAX": "sections_fail"
+					}
+				}
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_title": "alg in bioin",
+			"maxFail": 0
+		},
+		{
+			"sections_title": "honours thesis",
+			"maxFail": 0
+		},
+		{
+			"sections_title": "student seminar",
+			"maxFail": 0
+		},
+		{
+			"sections_title": "thry of automata",
+			"maxFail": 0
+		},
+		{
+			"sections_title": "computl ling 1",
+			"maxFail": 0
+		},
+		{
+			"sections_title": "software eng",
+			"maxFail": 0
+		},
+		{
+			"sections_title": "artif intell 2",
+			"maxFail": 0
+		},
+		{
+			"sections_title": "comp comm protcl",
+			"maxFail": 0
+		},
+		{
+			"sections_title": "machine learn i",
+			"maxFail": 0
+		},
+		{
+			"sections_title": "m.sc major essay",
+			"maxFail": 0
+		}
+	]
+}

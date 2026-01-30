@@ -1,0 +1,5112 @@
+{
+	"title": "wildcard suffix",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"sections_title": "*d"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sections_title"
+			],
+			"ORDER": "sections_title"
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_dept": "fipr",
+			"sections_title": "adv doc dev&prod"
+		},
+		{
+			"sections_dept": "fipr",
+			"sections_title": "adv doc dev&prod"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "algo class pred"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "algo class pred"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "algo class pred"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "algo class pred"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_title": "arch dsgn abroad"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_title": "arch dsgn abroad"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_title": "arch dsgn abroad"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_title": "arch dsgn abroad"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_title": "arch dsgn abroad"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_title": "arch dsgn abroad"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_title": "arch dsgn abroad"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_title": "arch dsgn abroad"
+		},
+		{
+			"sections_dept": "arcl",
+			"sections_title": "archaeology mthd"
+		},
+		{
+			"sections_dept": "arcl",
+			"sections_title": "archaeology mthd"
+		},
+		{
+			"sections_dept": "arcl",
+			"sections_title": "archaeology mthd"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "as in s&s disord"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "as in s&s disord"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "as in s&s disord"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "as in s&s disord"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "as in s&s disord"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "as in s&s disord"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "as in s&s disord"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "as in s&s disord"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "as in s&s disord"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "as in s&s disord"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "as in s&s disord"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "as in s&s disord"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "as in s&s disord"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "as in s&s disord"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "as in s&s disord"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "as in s&s disord"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "aspc consmr food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "aspc consmr food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "aspc consmr food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "aspc consmr food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "aspc consmr food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "aspc consmr food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "aspc consmr food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "aspc consmr food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "aspc consmr food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "aspc consmr food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "aspc consmr food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "aspc consmr food"
+		},
+		{
+			"sections_dept": "geob",
+			"sections_title": "biogeosc field"
+		},
+		{
+			"sections_dept": "geob",
+			"sections_title": "biogeosc field"
+		},
+		{
+			"sections_dept": "geob",
+			"sections_title": "biogeosc field"
+		},
+		{
+			"sections_dept": "geob",
+			"sections_title": "biogeosc field"
+		},
+		{
+			"sections_dept": "geob",
+			"sections_title": "biogeosc field"
+		},
+		{
+			"sections_dept": "geob",
+			"sections_title": "biogeosc field"
+		},
+		{
+			"sections_dept": "geob",
+			"sections_title": "biogeosc field"
+		},
+		{
+			"sections_dept": "geob",
+			"sections_title": "biogeosc field"
+		},
+		{
+			"sections_dept": "spph",
+			"sections_title": "cancer epid"
+		},
+		{
+			"sections_dept": "spph",
+			"sections_title": "cancer epid"
+		},
+		{
+			"sections_dept": "spph",
+			"sections_title": "cancer epid"
+		},
+		{
+			"sections_dept": "spph",
+			"sections_title": "cancer epid"
+		},
+		{
+			"sections_dept": "spph",
+			"sections_title": "cancer epid"
+		},
+		{
+			"sections_dept": "spph",
+			"sections_title": "cancer epid"
+		},
+		{
+			"sections_dept": "spph",
+			"sections_title": "cancer epid"
+		},
+		{
+			"sections_dept": "spph",
+			"sections_title": "cancer epid"
+		},
+		{
+			"sections_dept": "spph",
+			"sections_title": "cancer epid"
+		},
+		{
+			"sections_dept": "spph",
+			"sections_title": "cancer epid"
+		},
+		{
+			"sections_dept": "spph",
+			"sections_title": "cancer epid"
+		},
+		{
+			"sections_dept": "spph",
+			"sections_title": "cancer epid"
+		},
+		{
+			"sections_dept": "spph",
+			"sections_title": "cancer epid"
+		},
+		{
+			"sections_dept": "spph",
+			"sections_title": "cancer epid"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "ceramics: art ed"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "ceramics: art ed"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "ceramics: art ed"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "ceramics: art ed"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "ceramics: art ed"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "ceramics: art ed"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "ceramics: art ed"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "ceramics: art ed"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "ceramics: art ed"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "ceramics: art ed"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "ceramics: art ed"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "ceramics: art ed"
+		},
+		{
+			"sections_dept": "geob",
+			"sections_title": "chng env: wt&lnd"
+		},
+		{
+			"sections_dept": "geob",
+			"sections_title": "chng env: wt&lnd"
+		},
+		{
+			"sections_dept": "geob",
+			"sections_title": "chng env: wt&lnd"
+		},
+		{
+			"sections_dept": "geob",
+			"sections_title": "chng env: wt&lnd"
+		},
+		{
+			"sections_dept": "geob",
+			"sections_title": "chng env: wt&lnd"
+		},
+		{
+			"sections_dept": "geob",
+			"sections_title": "chng env: wt&lnd"
+		},
+		{
+			"sections_dept": "geob",
+			"sections_title": "chng env: wt&lnd"
+		},
+		{
+			"sections_dept": "geob",
+			"sections_title": "chng env: wt&lnd"
+		},
+		{
+			"sections_dept": "geob",
+			"sections_title": "chng env: wt&lnd"
+		},
+		{
+			"sections_dept": "geob",
+			"sections_title": "chng env: wt&lnd"
+		},
+		{
+			"sections_dept": "geob",
+			"sections_title": "chng env: wt&lnd"
+		},
+		{
+			"sections_dept": "geob",
+			"sections_title": "chng env: wt&lnd"
+		},
+		{
+			"sections_dept": "geob",
+			"sections_title": "chng env: wt&lnd"
+		},
+		{
+			"sections_dept": "geob",
+			"sections_title": "chng env: wt&lnd"
+		},
+		{
+			"sections_dept": "geob",
+			"sections_title": "chng env: wt&lnd"
+		},
+		{
+			"sections_dept": "geob",
+			"sections_title": "chng env: wt&lnd"
+		},
+		{
+			"sections_dept": "geob",
+			"sections_title": "chng env: wt&lnd"
+		},
+		{
+			"sections_dept": "geob",
+			"sections_title": "chng env: wt&lnd"
+		},
+		{
+			"sections_dept": "geob",
+			"sections_title": "chng env: wt&lnd"
+		},
+		{
+			"sections_dept": "geob",
+			"sections_title": "chng env: wt&lnd"
+		},
+		{
+			"sections_dept": "geob",
+			"sections_title": "chng env: wt&lnd"
+		},
+		{
+			"sections_dept": "geob",
+			"sections_title": "chng env: wt&lnd"
+		},
+		{
+			"sections_dept": "geob",
+			"sections_title": "chng env: wt&lnd"
+		},
+		{
+			"sections_dept": "geob",
+			"sections_title": "chng env: wt&lnd"
+		},
+		{
+			"sections_dept": "relg",
+			"sections_title": "clas christ trad"
+		},
+		{
+			"sections_dept": "relg",
+			"sections_title": "clas christ trad"
+		},
+		{
+			"sections_dept": "relg",
+			"sections_title": "clas christ trad"
+		},
+		{
+			"sections_dept": "relg",
+			"sections_title": "clas christ trad"
+		},
+		{
+			"sections_dept": "relg",
+			"sections_title": "clas christ trad"
+		},
+		{
+			"sections_dept": "relg",
+			"sections_title": "clas christ trad"
+		},
+		{
+			"sections_dept": "relg",
+			"sections_title": "clas christ trad"
+		},
+		{
+			"sections_dept": "relg",
+			"sections_title": "clas christ trad"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "cmp&anl ap m mod"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "cmp&anl ap m mod"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "cmp&anl ap m mod"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "cmp&anl ap m mod"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "cmp&anl ap m mod"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "cmp&anl ap m mod"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "cmp&anl ap m mod"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "cmp&anl ap m mod"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "cmp&anl ap m mod"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "cmp&anl ap m mod"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "cmp&anl ap m mod"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "cmp&anl ap m mod"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "cmp&anl ap m mod"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "cmp&anl ap m mod"
+		},
+		{
+			"sections_dept": "chbe",
+			"sections_title": "cmpt flwsh&fluid"
+		},
+		{
+			"sections_dept": "chbe",
+			"sections_title": "cmpt flwsh&fluid"
+		},
+		{
+			"sections_dept": "chbe",
+			"sections_title": "cmpt flwsh&fluid"
+		},
+		{
+			"sections_dept": "chbe",
+			"sections_title": "cmpt flwsh&fluid"
+		},
+		{
+			"sections_dept": "chbe",
+			"sections_title": "cmpt flwsh&fluid"
+		},
+		{
+			"sections_dept": "chbe",
+			"sections_title": "cmpt flwsh&fluid"
+		},
+		{
+			"sections_dept": "chbe",
+			"sections_title": "cmpt flwsh&fluid"
+		},
+		{
+			"sections_dept": "chbe",
+			"sections_title": "cmpt flwsh&fluid"
+		},
+		{
+			"sections_dept": "chbe",
+			"sections_title": "cmpt flwsh&fluid"
+		},
+		{
+			"sections_dept": "chbe",
+			"sections_title": "cmpt flwsh&fluid"
+		},
+		{
+			"sections_dept": "chbe",
+			"sections_title": "cmpt flwsh&fluid"
+		},
+		{
+			"sections_dept": "chbe",
+			"sections_title": "cmpt flwsh&fluid"
+		},
+		{
+			"sections_dept": "chbe",
+			"sections_title": "cmpt flwsh&fluid"
+		},
+		{
+			"sections_dept": "chbe",
+			"sections_title": "cmpt flwsh&fluid"
+		},
+		{
+			"sections_dept": "chbe",
+			"sections_title": "cmpt flwsh&fluid"
+		},
+		{
+			"sections_dept": "chbe",
+			"sections_title": "cmpt flwsh&fluid"
+		},
+		{
+			"sections_dept": "chbe",
+			"sections_title": "cmpt flwsh&fluid"
+		},
+		{
+			"sections_dept": "chbe",
+			"sections_title": "cmpt flwsh&fluid"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "cog lang proc ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "cog lang proc ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "cog lang proc ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "cog lang proc ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "cog lang proc ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "cog lang proc ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "cog lang proc ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "cog lang proc ed"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "cog proc & ald"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "cog proc & ald"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "cog proc & ald"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "cog proc & ald"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "cog proc & ald"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "cog proc & ald"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "cog proc & ald"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "cog proc & ald"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "cog proc & ald"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "cog proc & ald"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "cog proc & ald"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "cog proc & ald"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "cog proc & ald"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "cog proc & ald"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "cog proc & ald"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "cog proc & ald"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "comm dvel&disord"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "comm dvel&disord"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "comm dvel&disord"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "comm dvel&disord"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "comm dvel&disord"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "comm dvel&disord"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "comm dvel&disord"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "comm dvel&disord"
+		},
+		{
+			"sections_dept": "edst",
+			"sections_title": "comp&intl ad ed"
+		},
+		{
+			"sections_dept": "edst",
+			"sections_title": "comp&intl ad ed"
+		},
+		{
+			"sections_dept": "edst",
+			"sections_title": "comp&intl ad ed"
+		},
+		{
+			"sections_dept": "edst",
+			"sections_title": "comp&intl ad ed"
+		},
+		{
+			"sections_dept": "edst",
+			"sections_title": "comp&intl ad ed"
+		},
+		{
+			"sections_dept": "edst",
+			"sections_title": "comp&intl ad ed"
+		},
+		{
+			"sections_dept": "edst",
+			"sections_title": "comp&intl ad ed"
+		},
+		{
+			"sections_dept": "edst",
+			"sections_title": "comp&intl ad ed"
+		},
+		{
+			"sections_dept": "law",
+			"sections_title": "creditors' remed"
+		},
+		{
+			"sections_dept": "law",
+			"sections_title": "creditors' remed"
+		},
+		{
+			"sections_dept": "law",
+			"sections_title": "creditors' remed"
+		},
+		{
+			"sections_dept": "law",
+			"sections_title": "creditors' remed"
+		},
+		{
+			"sections_dept": "law",
+			"sections_title": "creditors' remed"
+		},
+		{
+			"sections_dept": "law",
+			"sections_title": "creditors' remed"
+		},
+		{
+			"sections_dept": "law",
+			"sections_title": "creditors' remed"
+		},
+		{
+			"sections_dept": "law",
+			"sections_title": "creditors' remed"
+		},
+		{
+			"sections_dept": "law",
+			"sections_title": "creditors' remed"
+		},
+		{
+			"sections_dept": "law",
+			"sections_title": "creditors' remed"
+		},
+		{
+			"sections_dept": "law",
+			"sections_title": "creditors' remed"
+		},
+		{
+			"sections_dept": "law",
+			"sections_title": "creditors' remed"
+		},
+		{
+			"sections_dept": "law",
+			"sections_title": "creditors' remed"
+		},
+		{
+			"sections_dept": "law",
+			"sections_title": "creditors' remed"
+		},
+		{
+			"sections_dept": "law",
+			"sections_title": "creditors' remed"
+		},
+		{
+			"sections_dept": "law",
+			"sections_title": "creditors' remed"
+		},
+		{
+			"sections_dept": "law",
+			"sections_title": "creditors' remed"
+		},
+		{
+			"sections_dept": "law",
+			"sections_title": "creditors' remed"
+		},
+		{
+			"sections_dept": "law",
+			"sections_title": "creditors' remed"
+		},
+		{
+			"sections_dept": "law",
+			"sections_title": "creditors' remed"
+		},
+		{
+			"sections_dept": "law",
+			"sections_title": "creditors' remed"
+		},
+		{
+			"sections_dept": "law",
+			"sections_title": "crim law & procd"
+		},
+		{
+			"sections_dept": "law",
+			"sections_title": "crim law & procd"
+		},
+		{
+			"sections_dept": "law",
+			"sections_title": "crim law & procd"
+		},
+		{
+			"sections_dept": "law",
+			"sections_title": "crim law & procd"
+		},
+		{
+			"sections_dept": "law",
+			"sections_title": "crim law & procd"
+		},
+		{
+			"sections_dept": "law",
+			"sections_title": "crim law & procd"
+		},
+		{
+			"sections_dept": "law",
+			"sections_title": "crim law & procd"
+		},
+		{
+			"sections_dept": "law",
+			"sections_title": "crim law & procd"
+		},
+		{
+			"sections_dept": "law",
+			"sections_title": "crim law & procd"
+		},
+		{
+			"sections_dept": "law",
+			"sections_title": "crim law & procd"
+		},
+		{
+			"sections_dept": "arth",
+			"sections_title": "crisis & contrad"
+		},
+		{
+			"sections_dept": "arth",
+			"sections_title": "crisis & contrad"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "crit anly sci ed"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "crit anly sci ed"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "crit anly sci ed"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "crit anly sci ed"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "crit anly sci ed"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "crit anly sci ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "crit spec ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "crit spec ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "crit spec ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "crit spec ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "crit spec ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "crit spec ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "crit spec ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "crit spec ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "crit spec ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "crit spec ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "crit spec ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "crit spec ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "crit spec ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "crit spec ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "crit spec ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "crit spec ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "crit spec ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "crit spec ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "crit spec ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "crit spec ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "crit spec ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "crit spec ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "crit spec ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "crit spec ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "crit spec ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "crit spec ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "crit spec ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "crit spec ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "crit spec ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "crit spec ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "crit spec ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "crit spec ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "crit spec ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "crit spec ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "crit spec ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "crit spec ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "crit spec ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "crit spec ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "crit spec ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "crit spec ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "cur dev e df&hrd"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "cur dev e df&hrd"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "cur dev e df&hrd"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "cur dev e df&hrd"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "cur dev e df&hrd"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "cur dev e df&hrd"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "cur dev e df&hrd"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "cur dev e df&hrd"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "cur dev e df&hrd"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "cur dev e df&hrd"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "cur innov physed"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "cur innov physed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "dev el sk df&hrd"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "dev el sk df&hrd"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "dev el sk df&hrd"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "dev el sk df&hrd"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "dev el sk df&hrd"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "dev el sk df&hrd"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "dev el sk df&hrd"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "dev el sk df&hrd"
+		},
+		{
+			"sections_dept": "medg",
+			"sections_title": "dev orign disord"
+		},
+		{
+			"sections_dept": "medg",
+			"sections_title": "dev orign disord"
+		},
+		{
+			"sections_dept": "medg",
+			"sections_title": "dev orign disord"
+		},
+		{
+			"sections_dept": "medg",
+			"sections_title": "dev orign disord"
+		},
+		{
+			"sections_dept": "medg",
+			"sections_title": "dev orign disord"
+		},
+		{
+			"sections_dept": "medg",
+			"sections_title": "dev orign disord"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "directn & prod"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "directn & prod"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "disord sp prod"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "disord sp prod"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "disord sp prod"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "disord sp prod"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "disord sp prod"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "disord sp prod"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "disord sp prod"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "disord sp prod"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "disord sp prod"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "disord sp prod"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "disord sp prod"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "disord sp prod"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "disord sp prod"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "disord sp prod"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "disord sp prod"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "disord sp prod"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "elec light & rad"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "elec light & rad"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "elec light & rad"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "elec light & rad"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "elec light & rad"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "elec light & rad"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "elec light & rad"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "elec light & rad"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "elec light & rad"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "elec light & rad"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "elec light & rad"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "elec light & rad"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "elec light & rad"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "elec light & rad"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "elec light & rad"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "elec light & rad"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "elec light & rad"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "elec light & rad"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "elec light & rad"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "elec light & rad"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "elec light & rad"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "elec light & rad"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "elec light & rad"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "elec light & rad"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "elec light & rad"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "elec light & rad"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "elec light & rad"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "elec light & rad"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "elec light & rad"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "elec light & rad"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "elec light & rad"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "elec light & rad"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "elec light & rad"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "elec light & rad"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "elec light & rad"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "elec light & rad"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "elec light & rad"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "elec light & rad"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "elec light & rad"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "elec light & rad"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "elec light & rad"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "elec light & rad"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "elec light & rad"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "elec light & rad"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "elec light & rad"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "elec light & rad"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "exp des anl ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "exp des anl ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "exp des anl ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "exp des anl ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "exp des anl ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "exp des anl ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "exp des anl ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "exp des anl ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "exp des anl ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "exp des anl ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "exp des anl ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "exp des anl ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "exp des anl ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "exp des anl ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "exp des anl ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "exp des anl ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "exp des anl ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "exp des anl ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "exp des anl ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "exp des anl ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "exp des anl ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "exp des anl ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "exp des anl ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "exp des anl ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "exp des anl ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "exp des anl ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "exp des anl ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "exp des anl ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "exp des anl ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "exp des anl ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "exp des anl ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "exp des anl ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "exp des anl ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "exp des anl ed"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_dept": "medi",
+			"sections_title": "exptl med method"
+		},
+		{
+			"sections_dept": "medi",
+			"sections_title": "exptl med method"
+		},
+		{
+			"sections_dept": "medi",
+			"sections_title": "exptl med method"
+		},
+		{
+			"sections_dept": "medi",
+			"sections_title": "exptl med method"
+		},
+		{
+			"sections_dept": "medi",
+			"sections_title": "exptl med method"
+		},
+		{
+			"sections_dept": "medi",
+			"sections_title": "exptl med method"
+		},
+		{
+			"sections_dept": "medi",
+			"sections_title": "exptl med method"
+		},
+		{
+			"sections_dept": "medi",
+			"sections_title": "exptl med method"
+		},
+		{
+			"sections_dept": "medi",
+			"sections_title": "exptl med method"
+		},
+		{
+			"sections_dept": "medi",
+			"sections_title": "exptl med method"
+		},
+		{
+			"sections_dept": "medi",
+			"sections_title": "exptl med method"
+		},
+		{
+			"sections_dept": "medi",
+			"sections_title": "exptl med method"
+		},
+		{
+			"sections_dept": "medi",
+			"sections_title": "exptl med method"
+		},
+		{
+			"sections_dept": "medi",
+			"sections_title": "exptl med method"
+		},
+		{
+			"sections_dept": "medi",
+			"sections_title": "exptl med method"
+		},
+		{
+			"sections_dept": "medi",
+			"sections_title": "exptl med method"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_title": "fem anti-rc ped"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_title": "fem anti-rc ped"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_title": "fem anti-rc ped"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_title": "fem anti-rc ped"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_title": "fem anti-rc ped"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_title": "fem anti-rc ped"
+		},
+		{
+			"sections_dept": "fre",
+			"sections_title": "fincl mktg food"
+		},
+		{
+			"sections_dept": "fre",
+			"sections_title": "fincl mktg food"
+		},
+		{
+			"sections_dept": "fre",
+			"sections_title": "fincl mktg food"
+		},
+		{
+			"sections_dept": "fre",
+			"sections_title": "fincl mktg food"
+		},
+		{
+			"sections_dept": "fre",
+			"sections_title": "fincl mktg food"
+		},
+		{
+			"sections_dept": "fre",
+			"sections_title": "fincl mktg food"
+		},
+		{
+			"sections_dept": "edst",
+			"sections_title": "fnds ad lrng ed"
+		},
+		{
+			"sections_dept": "edst",
+			"sections_title": "fnds ad lrng ed"
+		},
+		{
+			"sections_dept": "edst",
+			"sections_title": "fnds ad lrng ed"
+		},
+		{
+			"sections_dept": "edst",
+			"sections_title": "fnds ad lrng ed"
+		},
+		{
+			"sections_dept": "edst",
+			"sections_title": "fnds ad lrng ed"
+		},
+		{
+			"sections_dept": "edst",
+			"sections_title": "fnds ad lrng ed"
+		},
+		{
+			"sections_dept": "edst",
+			"sections_title": "fnds ad lrng ed"
+		},
+		{
+			"sections_dept": "edst",
+			"sections_title": "fnds ad lrng ed"
+		},
+		{
+			"sections_dept": "edst",
+			"sections_title": "fnds ad lrng ed"
+		},
+		{
+			"sections_dept": "edst",
+			"sections_title": "fnds ad lrng ed"
+		},
+		{
+			"sections_dept": "ba",
+			"sections_title": "found intgr & pd"
+		},
+		{
+			"sections_dept": "ba",
+			"sections_title": "found intgr & pd"
+		},
+		{
+			"sections_dept": "ba",
+			"sections_title": "found intgr & pd"
+		},
+		{
+			"sections_dept": "ba",
+			"sections_title": "found intgr & pd"
+		},
+		{
+			"sections_dept": "ba",
+			"sections_title": "found intgr & pd"
+		},
+		{
+			"sections_dept": "ba",
+			"sections_title": "found intgr & pd"
+		},
+		{
+			"sections_dept": "ba",
+			"sections_title": "found intgr & pd"
+		},
+		{
+			"sections_dept": "ba",
+			"sections_title": "found intgr & pd"
+		},
+		{
+			"sections_dept": "ba",
+			"sections_title": "found intgr & pd"
+		},
+		{
+			"sections_dept": "ba",
+			"sections_title": "found intgr & pd"
+		},
+		{
+			"sections_dept": "ba",
+			"sections_title": "found intgr & pd"
+		},
+		{
+			"sections_dept": "ba",
+			"sections_title": "found intgr & pd"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "foundations hmed"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "foundations hmed"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "foundations hmed"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "foundations hmed"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "foundations hmed"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "foundations hmed"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_title": "frst meas & prod"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_title": "frst meas & prod"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_title": "frst meas & prod"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_title": "frst meas & prod"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_title": "frst meas & prod"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_title": "frst meas & prod"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_title": "frst meas & prod"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_title": "frst meas & prod"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_title": "frst meas & prod"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_title": "frst meas & prod"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_title": "frst meas & prod"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_title": "frst meas & prod"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_title": "frst meas & prod"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_title": "frst meas & prod"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_title": "frst meas & prod"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_title": "frst meas & prod"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_title": "glued wood prod"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_title": "glued wood prod"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_title": "glued wood prod"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_title": "glued wood prod"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_title": "glued wood prod"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_title": "glued wood prod"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_title": "glued wood prod"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_title": "glued wood prod"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_title": "glued wood prod"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_title": "glued wood prod"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_title": "glued wood prod"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_title": "glued wood prod"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "gr lt wrs cl ind"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "gr lt wrs cl ind"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "gr lt wrs cl ind"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "gr lt wrs cl ind"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "gr lt wrs cl ind"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "gr lt wrs cl ind"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "gr lt wrs cl ind"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "gr lt wrs cl ind"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_title": "growth & yield"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_title": "growth & yield"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_title": "growth & yield"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_title": "growth & yield"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_title": "growth & yield"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_title": "growth & yield"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_title": "growth & yield"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_title": "growth & yield"
+		},
+		{
+			"sections_dept": "food",
+			"sections_title": "hazard anal food"
+		},
+		{
+			"sections_dept": "food",
+			"sections_title": "hazard anal food"
+		},
+		{
+			"sections_dept": "food",
+			"sections_title": "hazard anal food"
+		},
+		{
+			"sections_dept": "food",
+			"sections_title": "hazard anal food"
+		},
+		{
+			"sections_dept": "kin",
+			"sections_title": "high perf cond"
+		},
+		{
+			"sections_dept": "kin",
+			"sections_title": "high perf cond"
+		},
+		{
+			"sections_dept": "kin",
+			"sections_title": "high perf cond"
+		},
+		{
+			"sections_dept": "kin",
+			"sections_title": "high perf cond"
+		},
+		{
+			"sections_dept": "kin",
+			"sections_title": "high perf cond"
+		},
+		{
+			"sections_dept": "kin",
+			"sections_title": "high perf cond"
+		},
+		{
+			"sections_dept": "kin",
+			"sections_title": "high perf cond"
+		},
+		{
+			"sections_dept": "kin",
+			"sections_title": "high perf cond"
+		},
+		{
+			"sections_dept": "kin",
+			"sections_title": "high perf cond"
+		},
+		{
+			"sections_dept": "kin",
+			"sections_title": "high perf cond"
+		},
+		{
+			"sections_dept": "kin",
+			"sections_title": "high perf cond"
+		},
+		{
+			"sections_dept": "kin",
+			"sections_title": "high perf cond"
+		},
+		{
+			"sections_dept": "kin",
+			"sections_title": "high perf cond"
+		},
+		{
+			"sections_dept": "kin",
+			"sections_title": "high perf cond"
+		},
+		{
+			"sections_dept": "kin",
+			"sections_title": "high perf cond"
+		},
+		{
+			"sections_dept": "kin",
+			"sections_title": "high perf cond"
+		},
+		{
+			"sections_dept": "kin",
+			"sections_title": "high perf cond"
+		},
+		{
+			"sections_dept": "kin",
+			"sections_title": "high perf cond"
+		},
+		{
+			"sections_dept": "kin",
+			"sections_title": "high perf cond"
+		},
+		{
+			"sections_dept": "kin",
+			"sections_title": "high perf cond"
+		},
+		{
+			"sections_dept": "kin",
+			"sections_title": "high perf cond"
+		},
+		{
+			"sections_dept": "kin",
+			"sections_title": "high perf cond"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_title": "ind peo frst lnd"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_title": "ind peo frst lnd"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_title": "ind peo frst lnd"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_title": "ind peo frst lnd"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_title": "ind peo frst lnd"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_title": "ind peo frst lnd"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "indig, tech&ed"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "indig, tech&ed"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "indig, tech&ed"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "indig, tech&ed"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "indig, tech&ed"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "indig, tech&ed"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "indig, tech&ed"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "indig, tech&ed"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "indig, tech&ed"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "indig, tech&ed"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "indig, tech&ed"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "indig, tech&ed"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "indig, tech&ed"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "indig, tech&ed"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "indig, tech&ed"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "indig, tech&ed"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "indig, tech&ed"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "indig, tech&ed"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "indig, tech&ed"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "indig, tech&ed"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "indig, tech&ed"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "indig, tech&ed"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "indig, tech&ed"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "indig, tech&ed"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "int org res mthd"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "int org res mthd"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "int org res mthd"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "int org res mthd"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "int org res mthd"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "int org res mthd"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "int org res mthd"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "int org res mthd"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "int org res mthd"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "int org res mthd"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "int org res mthd"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "int org res mthd"
+		},
+		{
+			"sections_dept": "eced",
+			"sections_title": "interv child"
+		},
+		{
+			"sections_dept": "eced",
+			"sections_title": "interv child"
+		},
+		{
+			"sections_dept": "eced",
+			"sections_title": "interv child"
+		},
+		{
+			"sections_dept": "eced",
+			"sections_title": "interv child"
+		},
+		{
+			"sections_dept": "eced",
+			"sections_title": "interv child"
+		},
+		{
+			"sections_dept": "eced",
+			"sections_title": "interv child"
+		},
+		{
+			"sections_dept": "eced",
+			"sections_title": "interv child"
+		},
+		{
+			"sections_dept": "eced",
+			"sections_title": "interv child"
+		},
+		{
+			"sections_dept": "eced",
+			"sections_title": "interv child"
+		},
+		{
+			"sections_dept": "eced",
+			"sections_title": "interv child"
+		},
+		{
+			"sections_dept": "eced",
+			"sections_title": "interv child"
+		},
+		{
+			"sections_dept": "eced",
+			"sections_title": "interv child"
+		},
+		{
+			"sections_dept": "fipr",
+			"sections_title": "intr hst flm prd"
+		},
+		{
+			"sections_dept": "fipr",
+			"sections_title": "intr hst flm prd"
+		},
+		{
+			"sections_dept": "last",
+			"sections_title": "intr latn am std"
+		},
+		{
+			"sections_dept": "last",
+			"sections_title": "intr latn am std"
+		},
+		{
+			"sections_dept": "last",
+			"sections_title": "intr latn am std"
+		},
+		{
+			"sections_dept": "last",
+			"sections_title": "intr latn am std"
+		},
+		{
+			"sections_dept": "last",
+			"sections_title": "intr latn am std"
+		},
+		{
+			"sections_dept": "last",
+			"sections_title": "intr latn am std"
+		},
+		{
+			"sections_dept": "last",
+			"sections_title": "intr latn am std"
+		},
+		{
+			"sections_dept": "last",
+			"sections_title": "intr latn am std"
+		},
+		{
+			"sections_dept": "last",
+			"sections_title": "intr latn am std"
+		},
+		{
+			"sections_dept": "last",
+			"sections_title": "intr latn am std"
+		},
+		{
+			"sections_dept": "last",
+			"sections_title": "intr latn am std"
+		},
+		{
+			"sections_dept": "last",
+			"sections_title": "intr latn am std"
+		},
+		{
+			"sections_dept": "last",
+			"sections_title": "intr latn am std"
+		},
+		{
+			"sections_dept": "last",
+			"sections_title": "intr latn am std"
+		},
+		{
+			"sections_dept": "last",
+			"sections_title": "intr latn am std"
+		},
+		{
+			"sections_dept": "last",
+			"sections_title": "intr latn am std"
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_title": "intr writ nw med"
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_title": "intr writ nw med"
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_title": "intr writ nw med"
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_title": "intr writ nw med"
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_title": "intr writ nw med"
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_title": "intr writ nw med"
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_title": "intr writ nw med"
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_title": "intr writ nw med"
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_title": "intr writ nw med"
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_title": "intr writ nw med"
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_title": "intr writ nw med"
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_title": "intr writ nw med"
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_title": "intr writ nw med"
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_title": "intr writ nw med"
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_title": "intr writ nw med"
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_title": "intr writ nw med"
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_title": "intr writ nw med"
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_title": "intr writ nw med"
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_title": "intr writ nw med"
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_title": "intr writ nw med"
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_title": "intr writ nw med"
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_title": "intr writ nw med"
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_title": "intr writ nw med"
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_title": "intr writ nw med"
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_title": "intr writ nw med"
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_title": "intr writ nw med"
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_title": "intr writ nw med"
+		},
+		{
+			"sections_dept": "isci",
+			"sections_title": "intrdsc sc fld"
+		},
+		{
+			"sections_dept": "isci",
+			"sections_title": "intrdsc sc fld"
+		},
+		{
+			"sections_dept": "isci",
+			"sections_title": "intrdsc sc fld"
+		},
+		{
+			"sections_dept": "isci",
+			"sections_title": "intrdsc sc fld"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "intro tech prod"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "intro tech prod"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "intro tech prod"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "intro tech prod"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intrv ch&ad bh d"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intrv ch&ad bh d"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intrv ch&ad bh d"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intrv ch&ad bh d"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intrv ch&ad bh d"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intrv ch&ad bh d"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intrv ch&ad bh d"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intrv ch&ad bh d"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intrv ch&ad bh d"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intrv ch&ad bh d"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intrv ch&ad bh d"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intrv ch&ad bh d"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intrv ch&ad bh d"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intrv ch&ad bh d"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intrv ch&ad bh d"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intrv ch&ad bh d"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intrv ch&ad bh d"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intrv ch&ad bh d"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intrv ch&ad bh d"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intrv ch&ad bh d"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intrv ch&ad bh d"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intrv ch&ad bh d"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intrv ch&ad bh d"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intrv ch&ad bh d"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intrv ch&ad bh d"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intrv ch&ad bh d"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intrv ch&ad bh d"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intrv ch&ad bh d"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intrv ch&ad bh d"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intrv ch&ad bh d"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "japn fdl to mod"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "japn fdl to mod"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "japn fdl to mod"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "japn fdl to mod"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "japn fdl to mod"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "japn fdl to mod"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "japn fdl to mod"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "japn fdl to mod"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "japn fdl to mod"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "japn fdl to mod"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "japn fdl to mod"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "japn fdl to mod"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "japn fdl to mod"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "japn fdl to mod"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "japn fdl to mod"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "japn fdl to mod"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "japn fdl to mod"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "japn fdl to mod"
+		},
+		{
+			"sections_dept": "ling",
+			"sections_title": "lang of world"
+		},
+		{
+			"sections_dept": "ling",
+			"sections_title": "lang of world"
+		},
+		{
+			"sections_dept": "ling",
+			"sections_title": "lang of world"
+		},
+		{
+			"sections_dept": "ling",
+			"sections_title": "lang of world"
+		},
+		{
+			"sections_dept": "ling",
+			"sections_title": "lang of world"
+		},
+		{
+			"sections_dept": "ling",
+			"sections_title": "lang of world"
+		},
+		{
+			"sections_dept": "ling",
+			"sections_title": "lang of world"
+		},
+		{
+			"sections_dept": "ling",
+			"sections_title": "lang of world"
+		},
+		{
+			"sections_dept": "ling",
+			"sections_title": "lang of world"
+		},
+		{
+			"sections_dept": "ling",
+			"sections_title": "lang of world"
+		},
+		{
+			"sections_dept": "ling",
+			"sections_title": "lang of world"
+		},
+		{
+			"sections_dept": "ling",
+			"sections_title": "lang of world"
+		},
+		{
+			"sections_dept": "ling",
+			"sections_title": "lang of world"
+		},
+		{
+			"sections_dept": "ling",
+			"sections_title": "lang of world"
+		},
+		{
+			"sections_dept": "ling",
+			"sections_title": "lang of world"
+		},
+		{
+			"sections_dept": "ling",
+			"sections_title": "lang of world"
+		},
+		{
+			"sections_dept": "ling",
+			"sections_title": "lang of world"
+		},
+		{
+			"sections_dept": "ling",
+			"sections_title": "lang of world"
+		},
+		{
+			"sections_dept": "ling",
+			"sections_title": "lang of world"
+		},
+		{
+			"sections_dept": "ling",
+			"sections_title": "lang of world"
+		},
+		{
+			"sections_dept": "ling",
+			"sections_title": "lang of world"
+		},
+		{
+			"sections_dept": "ling",
+			"sections_title": "lang of world"
+		},
+		{
+			"sections_dept": "ling",
+			"sections_title": "lang of world"
+		},
+		{
+			"sections_dept": "ling",
+			"sections_title": "lang of world"
+		},
+		{
+			"sections_dept": "geog",
+			"sections_title": "mdrn eur pl&brd"
+		},
+		{
+			"sections_dept": "geog",
+			"sections_title": "mdrn eur pl&brd"
+		},
+		{
+			"sections_dept": "geog",
+			"sections_title": "mdrn eur pl&brd"
+		},
+		{
+			"sections_dept": "geog",
+			"sections_title": "mdrn eur pl&brd"
+		},
+		{
+			"sections_dept": "geog",
+			"sections_title": "mdrn eur pl&brd"
+		},
+		{
+			"sections_dept": "geog",
+			"sections_title": "mdrn eur pl&brd"
+		},
+		{
+			"sections_dept": "geog",
+			"sections_title": "mdrn eur pl&brd"
+		},
+		{
+			"sections_dept": "geog",
+			"sections_title": "mdrn eur pl&brd"
+		},
+		{
+			"sections_dept": "geog",
+			"sections_title": "mdrn eur pl&brd"
+		},
+		{
+			"sections_dept": "geog",
+			"sections_title": "mdrn eur pl&brd"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_title": "mechncs wood prd"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_title": "mechncs wood prd"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_title": "mechncs wood prd"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_title": "mechncs wood prd"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "microorg in food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "microorg in food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "microorg in food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "microorg in food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "microorg in food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "microorg in food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "microorg in food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "microorg in food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "microorg in food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "microorg in food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "microorg in food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "microorg in food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "microorg in food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "microorg in food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "microorg in food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "microorg in food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "microorg in food"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "microorg in food"
+		},
+		{
+			"sections_dept": "mine",
+			"sections_title": "min method"
+		},
+		{
+			"sections_dept": "mine",
+			"sections_title": "min method"
+		},
+		{
+			"sections_dept": "fipr",
+			"sections_title": "motn pictr sound"
+		},
+		{
+			"sections_dept": "fipr",
+			"sections_title": "motn pictr sound"
+		},
+		{
+			"sections_dept": "fipr",
+			"sections_title": "motn pictr sound"
+		},
+		{
+			"sections_dept": "fipr",
+			"sections_title": "motn pictr sound"
+		},
+		{
+			"sections_dept": "fipr",
+			"sections_title": "motn pictr sound"
+		},
+		{
+			"sections_dept": "fipr",
+			"sections_title": "motn pictr sound"
+		},
+		{
+			"sections_dept": "fipr",
+			"sections_title": "motn pictr sound"
+		},
+		{
+			"sections_dept": "fipr",
+			"sections_title": "motn pictr sound"
+		},
+		{
+			"sections_dept": "fipr",
+			"sections_title": "motn pictr sound"
+		},
+		{
+			"sections_dept": "fipr",
+			"sections_title": "motn pictr sound"
+		},
+		{
+			"sections_dept": "kin",
+			"sections_title": "mvmt exp yg chld"
+		},
+		{
+			"sections_dept": "kin",
+			"sections_title": "mvmt exp yg chld"
+		},
+		{
+			"sections_dept": "kin",
+			"sections_title": "mvmt exp yg chld"
+		},
+		{
+			"sections_dept": "kin",
+			"sections_title": "mvmt exp yg chld"
+		},
+		{
+			"sections_dept": "kin",
+			"sections_title": "mvmt exp yg chld"
+		},
+		{
+			"sections_dept": "kin",
+			"sections_title": "mvmt exp yg chld"
+		},
+		{
+			"sections_dept": "kin",
+			"sections_title": "mvmt exp yg chld"
+		},
+		{
+			"sections_dept": "kin",
+			"sections_title": "mvmt exp yg chld"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "nar lit prmd ind"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "nar lit prmd ind"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "nar lit prmd ind"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "nar lit prmd ind"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "nar lit prmd ind"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "nar lit prmd ind"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "nar lit prmd ind"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "nar lit prmd ind"
+		},
+		{
+			"sections_dept": "pers",
+			"sections_title": "pers writ & read"
+		},
+		{
+			"sections_dept": "pers",
+			"sections_title": "pers writ & read"
+		},
+		{
+			"sections_dept": "pers",
+			"sections_title": "pers writ & read"
+		},
+		{
+			"sections_dept": "pers",
+			"sections_title": "pers writ & read"
+		},
+		{
+			"sections_dept": "pers",
+			"sections_title": "pers writ & read"
+		},
+		{
+			"sections_dept": "pers",
+			"sections_title": "pers writ & read"
+		},
+		{
+			"sections_dept": "pers",
+			"sections_title": "pers writ & read"
+		},
+		{
+			"sections_dept": "pers",
+			"sections_title": "pers writ & read"
+		},
+		{
+			"sections_dept": "pers",
+			"sections_title": "pers writ & read"
+		},
+		{
+			"sections_dept": "pers",
+			"sections_title": "pers writ & read"
+		},
+		{
+			"sections_dept": "pers",
+			"sections_title": "pers writ & read"
+		},
+		{
+			"sections_dept": "pers",
+			"sections_title": "pers writ & read"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "phi wis ear ind"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "phi wis ear ind"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "phi wis ear ind"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "phi wis ear ind"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "phi wis ear ind"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "phi wis ear ind"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "phi wis ear ind"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "phi wis ear ind"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "phi wis ear ind"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "phi wis ear ind"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "phi wis ear ind"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "phi wis ear ind"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "phl wsd erly ind"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "phl wsd erly ind"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "phl wsd erly ind"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "phl wsd erly ind"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "phl wsd erly ind"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "phl wsd erly ind"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "phl wsd erly ind"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "phl wsd erly ind"
+		},
+		{
+			"sections_dept": "geob",
+			"sections_title": "phys geog field"
+		},
+		{
+			"sections_dept": "geob",
+			"sections_title": "phys geog field"
+		},
+		{
+			"sections_dept": "geob",
+			"sections_title": "phys geog field"
+		},
+		{
+			"sections_dept": "geob",
+			"sections_title": "phys geog field"
+		},
+		{
+			"sections_dept": "geob",
+			"sections_title": "phys geog field"
+		},
+		{
+			"sections_dept": "geob",
+			"sections_title": "phys geog field"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "play-intr&prod"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "play-intr&prod"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "psycopathy child"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "psycopathy child"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "psycopathy child"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "psycopathy child"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "psycopathy child"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "psycopathy child"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "psycopathy child"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "psycopathy child"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "ptl dif eqn flud"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "ptl dif eqn flud"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "ptl dif eqn flud"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "ptl dif eqn flud"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "ptl dif eqn flud"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "ptl dif eqn flud"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "qlt rsrch mthd"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "qlt rsrch mthd"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "qlt rsrch mthd"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "qlt rsrch mthd"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "qlt rsrch mthd"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "qlt rsrch mthd"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "qlt rsrch mthd"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "qlt rsrch mthd"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "qlt rsrch mthd"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "qlt rsrch mthd"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "qlt rsrch mthd"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "qlt rsrch mthd"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "qlt rsrch mthd"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "qlt rsrch mthd"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "qlt rsrch mthd"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "qlt rsrch mthd"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "qlt rsrch mthd"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "qlt rsrch mthd"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "qlt rsrch mthd"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "qlt rsrch mthd"
+		},
+		{
+			"sections_dept": "edst",
+			"sections_title": "qst, theor, mthd"
+		},
+		{
+			"sections_dept": "edst",
+			"sections_title": "qst, theor, mthd"
+		},
+		{
+			"sections_dept": "edst",
+			"sections_title": "qst, theor, mthd"
+		},
+		{
+			"sections_dept": "edst",
+			"sections_title": "qst, theor, mthd"
+		},
+		{
+			"sections_dept": "edst",
+			"sections_title": "qst, theor, mthd"
+		},
+		{
+			"sections_dept": "edst",
+			"sections_title": "qst, theor, mthd"
+		},
+		{
+			"sections_dept": "edst",
+			"sections_title": "qst, theor, mthd"
+		},
+		{
+			"sections_dept": "edst",
+			"sections_title": "qst, theor, mthd"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_title": "quant meth wood"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_title": "quant meth wood"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_title": "quant meth wood"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_title": "quant meth wood"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_title": "quant meth wood"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_title": "quant meth wood"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_title": "quant meth wood"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_title": "quant meth wood"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_title": "quant meth wood"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_title": "quant meth wood"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_title": "quant meth wood"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_title": "quant meth wood"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_title": "quant meth wood"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_title": "quant meth wood"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_title": "quant meth wood"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_title": "quant meth wood"
+		},
+		{
+			"sections_dept": "spph",
+			"sections_title": "quantv res methd"
+		},
+		{
+			"sections_dept": "spph",
+			"sections_title": "quantv res methd"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "radioiso sci&med"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "radioiso sci&med"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "radioiso sci&med"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "radioiso sci&med"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "rev res curr&ped"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "rev res curr&ped"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "rev res curr&ped"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "rev res curr&ped"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "rev res curr&ped"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "rev res curr&ped"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "rev res curr&ped"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "rev res curr&ped"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "rev res curr&ped"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "rev res curr&ped"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "rev res curr&ped"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "rev res curr&ped"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "rev res curr&ped"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "rev res curr&ped"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "rev res curr&ped"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "rev res curr&ped"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "rev res curr&ped"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "rev res curr&ped"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "rev res curr&ped"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "rev res curr&ped"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "rev res curr&ped"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "rev res curr&ped"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "rev res curr&ped"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "rev res curr&ped"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "rev res curr&ped"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "rev res curr&ped"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "rev res curr&ped"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "rev res curr&ped"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "rlg,sc&st md ind"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "rlg,sc&st md ind"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "rlg,sc&st md ind"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "rlg,sc&st md ind"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "rlg,sc&st md ind"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "rlg,sc&st md ind"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "rlg,sc&st md ind"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "rlg,sc&st md ind"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "rlg,sc&st md ind"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "rlg,sc&st md ind"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "rlg,sc&st md ind"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "rlg,sc&st md ind"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "rlg,sc&st md ind"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "rlg,sc&st md ind"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "rlg,sc&st md ind"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "rlg,sc&st md ind"
+		},
+		{
+			"sections_dept": "cnps",
+			"sections_title": "role tcher guid"
+		},
+		{
+			"sections_dept": "cnps",
+			"sections_title": "role tcher guid"
+		},
+		{
+			"sections_dept": "cnps",
+			"sections_title": "role tcher guid"
+		},
+		{
+			"sections_dept": "cnps",
+			"sections_title": "role tcher guid"
+		},
+		{
+			"sections_dept": "cnps",
+			"sections_title": "role tcher guid"
+		},
+		{
+			"sections_dept": "cnps",
+			"sections_title": "role tcher guid"
+		},
+		{
+			"sections_dept": "cnps",
+			"sections_title": "role tcher guid"
+		},
+		{
+			"sections_dept": "cnps",
+			"sections_title": "role tcher guid"
+		},
+		{
+			"sections_dept": "cnps",
+			"sections_title": "role tcher guid"
+		},
+		{
+			"sections_dept": "cnps",
+			"sections_title": "role tcher guid"
+		},
+		{
+			"sections_dept": "cnps",
+			"sections_title": "role tcher guid"
+		},
+		{
+			"sections_dept": "cnps",
+			"sections_title": "role tcher guid"
+		},
+		{
+			"sections_dept": "cnps",
+			"sections_title": "role tcher guid"
+		},
+		{
+			"sections_dept": "cnps",
+			"sections_title": "role tcher guid"
+		},
+		{
+			"sections_dept": "cnps",
+			"sections_title": "role tcher guid"
+		},
+		{
+			"sections_dept": "cnps",
+			"sections_title": "role tcher guid"
+		},
+		{
+			"sections_dept": "cnps",
+			"sections_title": "role tcher guid"
+		},
+		{
+			"sections_dept": "cnps",
+			"sections_title": "role tcher guid"
+		},
+		{
+			"sections_dept": "cnps",
+			"sections_title": "role tcher guid"
+		},
+		{
+			"sections_dept": "cnps",
+			"sections_title": "role tcher guid"
+		},
+		{
+			"sections_dept": "cnps",
+			"sections_title": "role tcher guid"
+		},
+		{
+			"sections_dept": "cnps",
+			"sections_title": "role tcher guid"
+		},
+		{
+			"sections_dept": "cnps",
+			"sections_title": "role tcher guid"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "s asians beyond"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "s asians beyond"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "s asians beyond"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "s asians beyond"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "s asians beyond"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "s asians beyond"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "s asians beyond"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "s asians beyond"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "s asians beyond"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "s asians beyond"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "s asians beyond"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "s asians beyond"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "sem/wok mus stud"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "sem/wok mus stud"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "serv for chld"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "serv for chld"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "serv for chld"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "serv for chld"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "serv for chld"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "serv for chld"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "serv for chld"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "serv for chld"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "serv for chld"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "serv for chld"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "serv for chld"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "serv for chld"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "serv for chld"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "serv for chld"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "serv for chld"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "serv for chld"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "serv for chld"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "serv for chld"
+		},
+		{
+			"sections_dept": "fipr",
+			"sections_title": "snd rec film&vid"
+		},
+		{
+			"sections_dept": "fipr",
+			"sections_title": "snd rec film&vid"
+		},
+		{
+			"sections_dept": "fipr",
+			"sections_title": "snd rec film&vid"
+		},
+		{
+			"sections_dept": "fipr",
+			"sections_title": "snd rec film&vid"
+		},
+		{
+			"sections_dept": "fipr",
+			"sections_title": "snd rec film&vid"
+		},
+		{
+			"sections_dept": "fipr",
+			"sections_title": "snd rec film&vid"
+		},
+		{
+			"sections_dept": "food",
+			"sections_title": "sns eval lab mtd"
+		},
+		{
+			"sections_dept": "food",
+			"sections_title": "sns eval lab mtd"
+		},
+		{
+			"sections_dept": "food",
+			"sections_title": "sns eval lab mtd"
+		},
+		{
+			"sections_dept": "food",
+			"sections_title": "sns eval lab mtd"
+		},
+		{
+			"sections_dept": "food",
+			"sections_title": "sns eval lab mtd"
+		},
+		{
+			"sections_dept": "food",
+			"sections_title": "sns eval lab mtd"
+		},
+		{
+			"sections_dept": "food",
+			"sections_title": "sns eval lab mtd"
+		},
+		{
+			"sections_dept": "food",
+			"sections_title": "sns eval lab mtd"
+		},
+		{
+			"sections_dept": "food",
+			"sections_title": "sns eval lab mtd"
+		},
+		{
+			"sections_dept": "food",
+			"sections_title": "sns eval lab mtd"
+		},
+		{
+			"sections_dept": "food",
+			"sections_title": "sns eval lab mtd"
+		},
+		{
+			"sections_dept": "food",
+			"sections_title": "sns eval lab mtd"
+		},
+		{
+			"sections_dept": "soci",
+			"sections_title": "soci of food"
+		},
+		{
+			"sections_dept": "soci",
+			"sections_title": "soci of food"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "statistical mthd"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "statistical mthd"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "statistical mthd"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "statistical mthd"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "statistical mthd"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "statistical mthd"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "statistical mthd"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "statistical mthd"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "statistical mthd"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "statistical mthd"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "statistical mthd"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "statistical mthd"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "statistical mthd"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "statistical mthd"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "statistical mthd"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "statistical mthd"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "statistical mthd"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "statistical mthd"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "statistical mthd"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "statistical mthd"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "statistical mthd"
+		},
+		{
+			"sections_dept": "apbi",
+			"sections_title": "sustain agr&food"
+		},
+		{
+			"sections_dept": "apbi",
+			"sections_title": "sustain agr&food"
+		},
+		{
+			"sections_dept": "apbi",
+			"sections_title": "sustain agr&food"
+		},
+		{
+			"sections_dept": "apbi",
+			"sections_title": "sustain agr&food"
+		},
+		{
+			"sections_dept": "apbi",
+			"sections_title": "sustain agr&food"
+		},
+		{
+			"sections_dept": "apbi",
+			"sections_title": "sustain agr&food"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "technicl prod"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "technicl prod"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "technicl prod"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "technicl prod"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "textiles: art ed"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "textiles: art ed"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "textiles: art ed"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "textiles: art ed"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "textiles: art ed"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "textiles: art ed"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "textiles: art ed"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "textiles: art ed"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "textiles: art ed"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "textiles: art ed"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "textiles: art ed"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "textiles: art ed"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "theory fdtn read"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "theory fdtn read"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "theory fdtn read"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "theory fdtn read"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "theory fdtn read"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "theory fdtn read"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "theory fdtn read"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "theory fdtn read"
+		},
+		{
+			"sections_dept": "geog",
+			"sections_title": "thms&intr iss md"
+		},
+		{
+			"sections_dept": "geog",
+			"sections_title": "thms&intr iss md"
+		},
+		{
+			"sections_dept": "geog",
+			"sections_title": "thms&intr iss md"
+		},
+		{
+			"sections_dept": "geog",
+			"sections_title": "thms&intr iss md"
+		},
+		{
+			"sections_dept": "geog",
+			"sections_title": "thms&intr iss md"
+		},
+		{
+			"sections_dept": "geog",
+			"sections_title": "thms&intr iss md"
+		},
+		{
+			"sections_dept": "geog",
+			"sections_title": "thms&intr iss md"
+		},
+		{
+			"sections_dept": "geog",
+			"sections_title": "thms&intr iss md"
+		},
+		{
+			"sections_dept": "geog",
+			"sections_title": "thms&intr iss md"
+		},
+		{
+			"sections_dept": "geog",
+			"sections_title": "thms&intr iss md"
+		},
+		{
+			"sections_dept": "geog",
+			"sections_title": "thms&intr iss md"
+		},
+		{
+			"sections_dept": "geog",
+			"sections_title": "thms&intr iss md"
+		},
+		{
+			"sections_dept": "geog",
+			"sections_title": "thms&intr iss md"
+		},
+		{
+			"sections_dept": "geog",
+			"sections_title": "thms&intr iss md"
+		},
+		{
+			"sections_dept": "geog",
+			"sections_title": "thms&intr iss md"
+		},
+		{
+			"sections_dept": "geog",
+			"sections_title": "thms&intr iss md"
+		},
+		{
+			"sections_dept": "geog",
+			"sections_title": "thms&intr iss md"
+		},
+		{
+			"sections_dept": "geog",
+			"sections_title": "thms&intr iss md"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "thry/res engl ed"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "thry/res engl ed"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "tpcs canadn ind"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "tpcs canadn ind"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "tpcs canadn ind"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "tpcs canadn ind"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "tpcs canadn ind"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "tpcs canadn ind"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "tpcs canadn ind"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "tpcs canadn ind"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "tpcs canadn ind"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "tpcs canadn ind"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "tpcs canadn ind"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "tpcs canadn ind"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "tpcs canadn ind"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "tpcs canadn ind"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "tpcs canadn ind"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "tpcs canadn ind"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "tpcs canadn ind"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "tpcs canadn ind"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "tpcs canadn ind"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "tpcs canadn ind"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "tpcs canadn ind"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "tpcs canadn ind"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "tpcs canadn ind"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "tpcs canadn ind"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "tpcs canadn ind"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "tpcs canadn ind"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "tpcs canadn ind"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "tpcs canadn ind"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "tpcs canadn ind"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "tpcs canadn ind"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "tpcs flu disord"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "tpcs flu disord"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "tpcs flu disord"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "tpcs flu disord"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "tpcs flu disord"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "tpcs flu disord"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "tpcs flu disord"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "tpcs flu disord"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "tpcs flu disord"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "tpcs flu disord"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "tpcs flu disord"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "tpcs flu disord"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "tpcs flu disord"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "tpcs flu disord"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "tpcs flu disord"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "tpcs flu disord"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "tpcs flu disord"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "tpcs flu disord"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "tpcs flu disord"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "tpcs flu disord"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "tree shrb lnd"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "tree shrb lnd"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "tree shrb lnd"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "tree shrb lnd"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "tree shrb lnd"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "tree shrb lnd"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "tree shrb lnd"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "tree shrb lnd"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "tree shrb lnd"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "tree shrb lnd"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "tree shrb lnd"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "tree shrb lnd"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "tree shrb lnd"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "tree shrb lnd"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "tree shrb lnd"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "tree shrb lnd"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "tree shrb lnd"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "tree shrb lnd"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "urban watershed"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "urban watershed"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "urban watershed"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "urban watershed"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "urban watershed"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "urban watershed"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "urban watershed"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "urban watershed"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "urban watershed"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "urban watershed"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "urban watershed"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "urban watershed"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_title": "wood anat & id"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_title": "wood anat & id"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_title": "wood anat & id"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_title": "wood anat & id"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_title": "wood anat & id"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_title": "wood anat & id"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_title": "wood anat & id"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_title": "wood anat & id"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_title": "wood anat & id"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_title": "wood anat & id"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_title": "wood anat & id"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_title": "wood anat & id"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_title": "wood anat & id"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_title": "wood anat & id"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_title": "wood anat & id"
+		},
+		{
+			"sections_dept": "wood",
+			"sections_title": "wood anat & id"
+		}
+	]
+}

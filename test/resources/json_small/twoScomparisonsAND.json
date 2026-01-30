@@ -1,0 +1,345 @@
+{
+	"title": "two scomparisons AND",
+	"input": {
+		"WHERE": {
+			"AND": [
+				{
+					"IS": {
+						"sections_dept": "cpsc"
+					}
+				},
+				{
+					"IS": {
+						"sections_instructor": "*d"
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sections_title",
+				"sections_instructor"
+			],
+			"ORDER": "sections_dept"
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "comptn, progrmng",
+			"sections_instructor": "garcia, ronald"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "comptn, progrmng",
+			"sections_instructor": "garcia, ronald"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "comptn, progrmng",
+			"sections_instructor": "garcia, ronald"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "comptn, progrmng",
+			"sections_instructor": "garcia, ronald"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "model comptn",
+			"sections_instructor": "tompkins, david a d"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "intro comp sys",
+			"sections_instructor": "acton, donald"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "intr sftwr eng",
+			"sections_instructor": "holmes, reid"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "intr sftwr eng",
+			"sections_instructor": "shepherd, david"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "intr sftwr eng",
+			"sections_instructor": "shepherd, david"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "func & logic prg",
+			"sections_instructor": "poole, david"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "comp hard&os",
+			"sections_instructor": "acton, donald"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "comp hard&os",
+			"sections_instructor": "acton, donald"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "comp hard&os",
+			"sections_instructor": "acton, donald"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "comp hard&os",
+			"sections_instructor": "acton, donald"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "comp hard&os",
+			"sections_instructor": "acton, donald"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "internet comp",
+			"sections_instructor": "acton, donald"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "internet comp",
+			"sections_instructor": "acton, donald"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "internet comp",
+			"sections_instructor": "acton, donald"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "internet comp",
+			"sections_instructor": "acton, donald"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "internet comp",
+			"sections_instructor": "acton, donald"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "internet comp",
+			"sections_instructor": "acton, donald"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "internet comp",
+			"sections_instructor": "acton, donald"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "internet comp",
+			"sections_instructor": "acton, donald"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "softwr eng proj",
+			"sections_instructor": "awad, ahmed"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "artificial intel",
+			"sections_instructor": "poole, david"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "machine lrn mine",
+			"sections_instructor": "doucet, arnaud"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "adv software eng",
+			"sections_instructor": "holmes, reid"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "compiler constrc",
+			"sections_instructor": "garcia, ronald"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "adv opertng sysm",
+			"sections_instructor": "acton, donald"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "adv opertng sysm",
+			"sections_instructor": "acton, donald"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "adv opertng sysm",
+			"sections_instructor": "acton, donald"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "adv opertng sysm",
+			"sections_instructor": "acton, donald"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "adv opertng sysm",
+			"sections_instructor": "acton, donald"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "adv opertng sysm",
+			"sections_instructor": "acton, donald"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "adv opertng sysm",
+			"sections_instructor": "acton, donald"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "adv opertng sysm",
+			"sections_instructor": "acton, donald"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "adv opertng sysm",
+			"sections_instructor": "acton, donald"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "distrbt'd systms",
+			"sections_instructor": "acton, donald"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "distrbt'd systms",
+			"sections_instructor": "acton, donald"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "distrbt'd systms",
+			"sections_instructor": "acton, donald"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "adv alg dsgn&anl",
+			"sections_instructor": "kirkpatrick, david"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "adv alg dsgn&anl",
+			"sections_instructor": "kirkpatrick, david"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "adv alg dsgn&anl",
+			"sections_instructor": "kirkpatrick, david"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "adv alg dsgn&anl",
+			"sections_instructor": "kirkpatrick, david"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "adv alg dsgn&anl",
+			"sections_instructor": "kirkpatrick, david"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "adv alg dsgn&anl",
+			"sections_instructor": "kirkpatrick, david"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "intel systems",
+			"sections_instructor": "poole, david"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "intel systems",
+			"sections_instructor": "poole, david"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "intel systems",
+			"sections_instructor": "poole, david"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "fund alg dsgn&an",
+			"sections_instructor": "kirkpatrick, david"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "fund alg dsgn&an",
+			"sections_instructor": "kirkpatrick, david"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "artif intell 1",
+			"sections_instructor": "poole, david"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "software eng",
+			"sections_instructor": "holmes, reid"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "prog lang princ",
+			"sections_instructor": "garcia, ronald"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "prog lang princ",
+			"sections_instructor": "garcia, ronald"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "prog lang princ",
+			"sections_instructor": "garcia, ronald"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "prog lang princ",
+			"sections_instructor": "garcia, ronald"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "prog lang princ",
+			"sections_instructor": "garcia, ronald"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "artif intell 2",
+			"sections_instructor": "poole, david"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "artif intell 2",
+			"sections_instructor": "poole, david"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "artif intell 2",
+			"sections_instructor": "poole, david"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "artif intell 2",
+			"sections_instructor": "poole, david"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "machine learn i",
+			"sections_instructor": "doucet, arnaud"
+		}
+	]
+}

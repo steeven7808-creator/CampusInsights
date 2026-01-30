@@ -1,0 +1,804 @@
+{
+	"title": "wildcard contains double whitespace",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"sections_title": "*  *"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sections_title"
+			],
+			"ORDER": "sections_title"
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_dept": "econ",
+			"sections_title": "adv  microec ana"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "adv  microec ana"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "adv  microec ana"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "adv  microec ana"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "adv  microec ana"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "adv  microec ana"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "adv  microec ana"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "adv  microec ana"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "adv  microec ana"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "adv  microec ana"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "adv  microec ana"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "adv  microec ana"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "adv  microec ana"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "adv  microec ana"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "adv  microec ana"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "adv  microec ana"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "adv  microec ana"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "adv  microec ana"
+		},
+		{
+			"sections_dept": "japn",
+			"sections_title": "adv  read&writ"
+		},
+		{
+			"sections_dept": "japn",
+			"sections_title": "adv  read&writ"
+		},
+		{
+			"sections_dept": "japn",
+			"sections_title": "adv  read&writ"
+		},
+		{
+			"sections_dept": "japn",
+			"sections_title": "adv  read&writ"
+		},
+		{
+			"sections_dept": "japn",
+			"sections_title": "adv  read&writ"
+		},
+		{
+			"sections_dept": "japn",
+			"sections_title": "adv  read&writ"
+		},
+		{
+			"sections_dept": "japn",
+			"sections_title": "adv  read&writ"
+		},
+		{
+			"sections_dept": "japn",
+			"sections_title": "adv  read&writ"
+		},
+		{
+			"sections_dept": "japn",
+			"sections_title": "adv  read&writ"
+		},
+		{
+			"sections_dept": "japn",
+			"sections_title": "adv  read&writ"
+		},
+		{
+			"sections_dept": "japn",
+			"sections_title": "adv  read&writ i"
+		},
+		{
+			"sections_dept": "japn",
+			"sections_title": "adv  read&writ i"
+		},
+		{
+			"sections_dept": "japn",
+			"sections_title": "adv  read&writ i"
+		},
+		{
+			"sections_dept": "japn",
+			"sections_title": "adv  read&writ i"
+		},
+		{
+			"sections_dept": "japn",
+			"sections_title": "adv  read&writ i"
+		},
+		{
+			"sections_dept": "japn",
+			"sections_title": "adv  read&writ i"
+		},
+		{
+			"sections_dept": "japn",
+			"sections_title": "adv  read&writ i"
+		},
+		{
+			"sections_dept": "japn",
+			"sections_title": "adv  read&writ i"
+		},
+		{
+			"sections_dept": "japn",
+			"sections_title": "adv  read&writ i"
+		},
+		{
+			"sections_dept": "japn",
+			"sections_title": "adv  read&writ i"
+		},
+		{
+			"sections_dept": "japn",
+			"sections_title": "adv  read&writ i"
+		},
+		{
+			"sections_dept": "japn",
+			"sections_title": "adv  read&writ i"
+		},
+		{
+			"sections_dept": "japn",
+			"sections_title": "adv  read&writ i"
+		},
+		{
+			"sections_dept": "japn",
+			"sections_title": "adv  read&writ i"
+		},
+		{
+			"sections_dept": "japn",
+			"sections_title": "adv  read&writ i"
+		},
+		{
+			"sections_dept": "japn",
+			"sections_title": "adv  read&writ i"
+		},
+		{
+			"sections_dept": "japn",
+			"sections_title": "adv  read&writ i"
+		},
+		{
+			"sections_dept": "japn",
+			"sections_title": "adv  read&writ i"
+		},
+		{
+			"sections_dept": "japn",
+			"sections_title": "adv  read&writ i"
+		},
+		{
+			"sections_dept": "japn",
+			"sections_title": "adv  read&writ i"
+		},
+		{
+			"sections_dept": "japn",
+			"sections_title": "adv  read&writ i"
+		},
+		{
+			"sections_dept": "japn",
+			"sections_title": "adv  read&writ i"
+		},
+		{
+			"sections_dept": "japn",
+			"sections_title": "adv  read&writ i"
+		},
+		{
+			"sections_dept": "japn",
+			"sections_title": "adv  read&writ i"
+		},
+		{
+			"sections_dept": "japn",
+			"sections_title": "adv  read&writ i"
+		},
+		{
+			"sections_dept": "japn",
+			"sections_title": "adv  read&writ i"
+		},
+		{
+			"sections_dept": "japn",
+			"sections_title": "adv  read&writ i"
+		},
+		{
+			"sections_dept": "enph",
+			"sections_title": "entreprn proj  i"
+		},
+		{
+			"sections_dept": "enph",
+			"sections_title": "entreprn proj  i"
+		},
+		{
+			"sections_dept": "enph",
+			"sections_title": "entreprn proj  i"
+		},
+		{
+			"sections_dept": "enph",
+			"sections_title": "entreprn proj  i"
+		},
+		{
+			"sections_dept": "baac",
+			"sections_title": "fndtns  accnting"
+		},
+		{
+			"sections_dept": "baac",
+			"sections_title": "fndtns  accnting"
+		},
+		{
+			"sections_dept": "baac",
+			"sections_title": "fndtns  accnting"
+		},
+		{
+			"sections_dept": "baac",
+			"sections_title": "fndtns  accnting"
+		},
+		{
+			"sections_dept": "baac",
+			"sections_title": "fndtns  accnting"
+		},
+		{
+			"sections_dept": "baac",
+			"sections_title": "fndtns  accnting"
+		},
+		{
+			"sections_dept": "baac",
+			"sections_title": "fndtns  accnting"
+		},
+		{
+			"sections_dept": "baac",
+			"sections_title": "fndtns  accnting"
+		},
+		{
+			"sections_dept": "baac",
+			"sections_title": "fndtns  accnting"
+		},
+		{
+			"sections_dept": "baac",
+			"sections_title": "fndtns  accnting"
+		},
+		{
+			"sections_dept": "baac",
+			"sections_title": "fndtns  accnting"
+		},
+		{
+			"sections_dept": "baac",
+			"sections_title": "fndtns  accnting"
+		},
+		{
+			"sections_dept": "baac",
+			"sections_title": "fndtns  accnting"
+		},
+		{
+			"sections_dept": "baac",
+			"sections_title": "fndtns  accnting"
+		},
+		{
+			"sections_dept": "baac",
+			"sections_title": "fndtns  accnting"
+		},
+		{
+			"sections_dept": "baac",
+			"sections_title": "fndtns  accnting"
+		},
+		{
+			"sections_dept": "baac",
+			"sections_title": "fndtns  accnting"
+		},
+		{
+			"sections_dept": "baac",
+			"sections_title": "fndtns  accnting"
+		},
+		{
+			"sections_dept": "baac",
+			"sections_title": "fndtns  accnting"
+		},
+		{
+			"sections_dept": "baac",
+			"sections_title": "fndtns  accnting"
+		},
+		{
+			"sections_dept": "baac",
+			"sections_title": "fndtns  accnting"
+		},
+		{
+			"sections_dept": "baac",
+			"sections_title": "fndtns  accnting"
+		},
+		{
+			"sections_dept": "baac",
+			"sections_title": "fndtns  accnting"
+		},
+		{
+			"sections_dept": "baac",
+			"sections_title": "fndtns  accnting"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_title": "fr  lit &txt anl"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_title": "fr  lit &txt anl"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_title": "fr  lit &txt anl"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_title": "fr  lit &txt anl"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_title": "fr  lit &txt anl"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_title": "fr  lit &txt anl"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_title": "fr  lit &txt anl"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_title": "fr  lit &txt anl"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_title": "fr  lit &txt anl"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_title": "fr  lit &txt anl"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_title": "fr  lit &txt anl"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_title": "fr  lit &txt anl"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_title": "fr  lit &txt anl"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_title": "fr  lit &txt anl"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_title": "fr  lit &txt anl"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_title": "fr  lit &txt anl"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_title": "fr  lit &txt anl"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_title": "fr  lit &txt anl"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_title": "fr  lit &txt anl"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_title": "fr  lit &txt anl"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_title": "fr  lit &txt anl"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_title": "fr  lit &txt anl"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_title": "fr  lit &txt anl"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_title": "fr  lit &txt anl"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_title": "fr  lit &txt anl"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_title": "fr  lit &txt anl"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_title": "fr  lit &txt anl"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_title": "fr  lit &txt anl"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_title": "fr  lit &txt anl"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_title": "fr  lit &txt anl"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_title": "fr  lit &txt anl"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_title": "fr  lit &txt anl"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_title": "fr  lit &txt anl"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_title": "fr  lit &txt anl"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_title": "fr  lit &txt anl"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_title": "fr  lit &txt anl"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_title": "fr  lit &txt anl"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_title": "fr  lit &txt anl"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_title": "fr  lit &txt anl"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_title": "fr  lit &txt anl"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_title": "globl  envr hist"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_title": "globl  envr hist"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_title": "globl  envr hist"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_title": "globl  envr hist"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_title": "globl  envr hist"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_title": "globl  envr hist"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_title": "globl  envr hist"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_title": "globl  envr hist"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_title": "globl  envr hist"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_title": "globl  envr hist"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_title": "globl  envr hist"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_title": "globl  envr hist"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_title": "globl  envr hist"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_title": "globl  envr hist"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_title": "globl  envr hist"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_title": "globl  envr hist"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_title": "globl  envr hist"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_title": "globl  envr hist"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_title": "globl  envr hist"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_title": "globl  envr hist"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_title": "globl  envr hist"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_title": "globl  envr hist"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_title": "globl  envr hist"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_title": "globl  envr hist"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_title": "grad project  i"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_title": "grad project  i"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_title": "grad project  i"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_title": "grad project  i"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_title": "grad project  i"
+		},
+		{
+			"sections_dept": "ling",
+			"sections_title": "natv lang  amers"
+		},
+		{
+			"sections_dept": "ling",
+			"sections_title": "natv lang  amers"
+		},
+		{
+			"sections_dept": "ling",
+			"sections_title": "natv lang  amers"
+		},
+		{
+			"sections_dept": "ling",
+			"sections_title": "natv lang  amers"
+		},
+		{
+			"sections_dept": "ling",
+			"sections_title": "natv lang  amers"
+		},
+		{
+			"sections_dept": "ling",
+			"sections_title": "natv lang  amers"
+		},
+		{
+			"sections_dept": "ling",
+			"sections_title": "natv lang  amers"
+		},
+		{
+			"sections_dept": "ling",
+			"sections_title": "natv lang  amers"
+		},
+		{
+			"sections_dept": "ling",
+			"sections_title": "natv lang  amers"
+		},
+		{
+			"sections_dept": "ling",
+			"sections_title": "natv lang  amers"
+		},
+		{
+			"sections_dept": "ling",
+			"sections_title": "natv lang  amers"
+		},
+		{
+			"sections_dept": "ling",
+			"sections_title": "natv lang  amers"
+		},
+		{
+			"sections_dept": "ling",
+			"sections_title": "natv lang  amers"
+		},
+		{
+			"sections_dept": "ling",
+			"sections_title": "natv lang  amers"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_title": "quebecois  lit"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_title": "quebecois  lit"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_title": "quebecois  lit"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_title": "quebecois  lit"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_title": "quebecois  lit"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_title": "quebecois  lit"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_title": "quebecois  lit"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_title": "quebecois  lit"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_title": "quebecois  lit"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_title": "quebecois  lit"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_title": "quebecois  lit"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_title": "quebecois  lit"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_title": "quebecois  lit"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_title": "quebecois  lit"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "ste analy  plan 2"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "ste analy  plan 2"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "ste analy  plan 2"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "ste analy  plan 2"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "ste analy  plan 2"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "ste analy  plan 2"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "ste analy  plan 2"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "ste analy  plan 2"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "ste analy  plan 2"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "ste analy  plan 2"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "ste analy  plan 2"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "ste analy  plan 2"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "ste analy  plan 2"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "ste analy  plan 2"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "ste analy  plan 2"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "ste analy  plan 2"
+		}
+	]
+}

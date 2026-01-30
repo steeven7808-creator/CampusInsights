@@ -1,0 +1,20 @@
+{
+	"title": "mfield in scomparison",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"sections_avg": "2*"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sections_title",
+				"sections_instructor"
+			],
+			"ORDER": "sections_dept"
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

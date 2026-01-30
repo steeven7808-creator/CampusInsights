@@ -1,0 +1,31 @@
+{
+	"title": "weird apply invalid key",
+	"input": {
+		"WHERE": {},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dog"
+			],
+			"ORDER": {
+				"dir": "DOWN",
+				"keys": [
+					"sections_dog"
+				]
+			}
+		},
+		"TRANSFORMATIONS": {
+			"GROUP": [
+				"rooms_seats"
+			],
+			"APPLY": [
+				{
+					"sections_dog": {
+						"MAX": "rooms_seats"
+					}
+				}
+			]
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

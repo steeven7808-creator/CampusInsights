@@ -1,0 +1,45 @@
+{
+	"title": "field from rooms on sections dataset",
+	"input": {
+		"WHERE": {
+			"AND": [
+				{
+					"IS": {
+						"rooms_dept": "*cpsc*"
+					}
+				},
+				{
+					"GT": {
+						"rooms_avg": 90
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"rooms_title",
+				"maxFail"
+			],
+			"ORDER": {
+				"dir": "DOWN",
+				"keys": [
+					"maxFail"
+				]
+			}
+		},
+		"TRANSFORMATIONS": {
+			"GROUP": [
+				"rooms_title"
+			],
+			"APPLY": [
+				{
+					"maxFail": {
+						"MAX": "rooms_fail"
+					}
+				}
+			]
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

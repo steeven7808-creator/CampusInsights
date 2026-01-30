@@ -1,0 +1,690 @@
+{
+	"title": "two scomparisons AND same column",
+	"input": {
+		"WHERE": {
+			"AND": [
+				{
+					"IS": {
+						"sections_instructor": "d*"
+					}
+				},
+				{
+					"IS": {
+						"sections_instructor": "*d"
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sections_title",
+				"sections_instructor"
+			],
+			"ORDER": "sections_dept"
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_dept": "astu",
+			"sections_title": "int global citiz",
+			"sections_instructor": "d'silva, reginald"
+		},
+		{
+			"sections_dept": "astu",
+			"sections_title": "int global citiz",
+			"sections_instructor": "d'silva, reginald"
+		},
+		{
+			"sections_dept": "astu",
+			"sections_title": "int global citiz",
+			"sections_instructor": "d'silva, reginald"
+		},
+		{
+			"sections_dept": "astu",
+			"sections_title": "int global citiz",
+			"sections_instructor": "d'silva, reginald"
+		},
+		{
+			"sections_dept": "astu",
+			"sections_title": "int global citiz",
+			"sections_instructor": "d'silva, reginald"
+		},
+		{
+			"sections_dept": "caps",
+			"sections_title": "intr grs hum ant",
+			"sections_instructor": "doroudi, majid"
+		},
+		{
+			"sections_dept": "caps",
+			"sections_title": "intr grs hum ant",
+			"sections_instructor": "doroudi, majid"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "org chem biol sc",
+			"sections_instructor": "dake, gregory;perrin, david"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "org chem biol sc",
+			"sections_instructor": "dake, gregory;perrin, david"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "prjct cnstr econ",
+			"sections_instructor": "dunbar, w scott;russell, alan david"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "prjct cnstr econ",
+			"sections_instructor": "dunbar, w scott;russell, alan david"
+		},
+		{
+			"sections_dept": "cogs",
+			"sections_title": "dsgn cog systems",
+			"sections_instructor": "danielson, peter;poole, david"
+		},
+		{
+			"sections_dept": "cogs",
+			"sections_title": "dsgn cog systems",
+			"sections_instructor": "danielson, peter;poole, david"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "machine lrn mine",
+			"sections_instructor": "doucet, arnaud"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "machine learn i",
+			"sections_instructor": "doucet, arnaud"
+		},
+		{
+			"sections_dept": "educ",
+			"sections_title": "int global citiz",
+			"sections_instructor": "d'silva, reginald"
+		},
+		{
+			"sections_dept": "educ",
+			"sections_title": "int global citiz",
+			"sections_instructor": "d'silva, reginald"
+		},
+		{
+			"sections_dept": "educ",
+			"sections_title": "int global citiz",
+			"sections_instructor": "d'silva, reginald"
+		},
+		{
+			"sections_dept": "educ",
+			"sections_title": "int global citiz",
+			"sections_instructor": "d'silva, reginald"
+		},
+		{
+			"sections_dept": "educ",
+			"sections_title": "int global citiz",
+			"sections_instructor": "d'silva, reginald"
+		},
+		{
+			"sections_dept": "educ",
+			"sections_title": "com srv learning",
+			"sections_instructor": "d'silva, reginald"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "read, write lit",
+			"sections_instructor": "danielson, dennis richard"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "read, write lit",
+			"sections_instructor": "danielson, dennis richard"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature",
+			"sections_instructor": "danielson, dennis richard"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "lit engl 18c",
+			"sections_instructor": "danielson, dennis richard"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "major seminr lit",
+			"sections_instructor": "danielson, dennis richard"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "gold & gems",
+			"sections_instructor": "dzikowski, tashia;turner, david"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "gold & gems",
+			"sections_instructor": "dzikowski, tashia;turner, david"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "gold & gems",
+			"sections_instructor": "dzikowski, tashia;turner, david"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "gold & gems",
+			"sections_instructor": "dzikowski, tashia;turner, david"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "gold & gems",
+			"sections_instructor": "dzikowski, tashia;turner, david"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "gold & gems",
+			"sections_instructor": "dzikowski, tashia;turner, david"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "gold & gems",
+			"sections_instructor": "dzikowski, tashia;turner, david"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "gold & gems",
+			"sections_instructor": "dzikowski, tashia;turner, david"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "intr min dep&exp",
+			"sections_instructor": "dipple, gregory;hickey, kenneth;mortensen, james;scoates, james stewart;tosdal, richard"
+		},
+		{
+			"sections_dept": "geob",
+			"sections_title": "changing envr",
+			"sections_instructor": "donner, simon;hamdan, khaled"
+		},
+		{
+			"sections_dept": "geob",
+			"sections_title": "changing envr",
+			"sections_instructor": "donner, simon;hamdan, khaled"
+		},
+		{
+			"sections_dept": "germ",
+			"sections_title": "grm lit pst 1945",
+			"sections_instructor": "deschamps, bernard"
+		},
+		{
+			"sections_dept": "germ",
+			"sections_title": "trad & change",
+			"sections_instructor": "deschamps, bernard"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ",
+			"sections_instructor": "d'silva, reginald"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ",
+			"sections_instructor": "d'silva, reginald"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ",
+			"sections_instructor": "d'silva, reginald"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ",
+			"sections_instructor": "d'silva, reginald"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ",
+			"sections_instructor": "d'silva, reginald"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "soc proc incl/ex",
+			"sections_instructor": "d'silva, reginald"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "lang communites",
+			"sections_instructor": "d'silva, reginald"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "lang communites",
+			"sections_instructor": "d'silva, reginald"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "lang communites",
+			"sections_instructor": "d'silva, reginald"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "lang communites",
+			"sections_instructor": "d'silva, reginald"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "lang communites",
+			"sections_instructor": "d'silva, reginald"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "lang communites",
+			"sections_instructor": "d'silva, reginald"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "lang communites",
+			"sections_instructor": "d'silva, reginald"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intrclt comm",
+			"sections_instructor": "d'silva, reginald"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intrclt comm",
+			"sections_instructor": "d'silva, reginald"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intrclt comm",
+			"sections_instructor": "d'silva, reginald"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intrclt comm",
+			"sections_instructor": "d'silva, reginald"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intrclt comm",
+			"sections_instructor": "d'silva, reginald"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "trans globe soc",
+			"sections_instructor": "d'silva, reginald"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "lang practices",
+			"sections_instructor": "d'silva, reginald"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "lang practices",
+			"sections_instructor": "d'silva, reginald"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "mech of material",
+			"sections_instructor": "de silva, clarence wilfred"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "mech of material",
+			"sections_instructor": "de silva, clarence wilfred"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "mech of material",
+			"sections_instructor": "de silva, clarence wilfred"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "mech of material",
+			"sections_instructor": "de silva, clarence wilfred"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "mech of material",
+			"sections_instructor": "de silva, clarence wilfred"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "dynam syst model",
+			"sections_instructor": "de silva, clarence wilfred"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "dynam syst model",
+			"sections_instructor": "de silva, clarence wilfred"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "dynam syst model",
+			"sections_instructor": "de silva, clarence wilfred"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "fndns contrl eng",
+			"sections_instructor": "de silva, clarence wilfred"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "modl dynam systm",
+			"sections_instructor": "de silva, clarence wilfred"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "modl dynam systm",
+			"sections_instructor": "de silva, clarence wilfred"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "modl dynam systm",
+			"sections_instructor": "de silva, clarence wilfred"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "modl dynam systm",
+			"sections_instructor": "de silva, clarence wilfred"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "modl dynam systm",
+			"sections_instructor": "de silva, clarence wilfred"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_title": "met thermodyn i",
+			"sections_instructor": "dixon, david"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_title": "met thermodyn i",
+			"sections_instructor": "dixon, david"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_title": "met thermodyn i",
+			"sections_instructor": "dixon, david"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_title": "met thermodyn i",
+			"sections_instructor": "dixon, david"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_title": "met thermodyn i",
+			"sections_instructor": "dixon, david"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_title": "met thermodyn i",
+			"sections_instructor": "dixon, david"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_title": "transport phen i",
+			"sections_instructor": "dixon, david"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_title": "transport phen i",
+			"sections_instructor": "dixon, david"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_title": "modlg matls proc",
+			"sections_instructor": "dixon, david"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_title": "modlg matls proc",
+			"sections_instructor": "dixon, david"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_title": "trans phen ii",
+			"sections_instructor": "dixon, david"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_title": "trans phen ii",
+			"sections_instructor": "dixon, david"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_title": "trans phen ii",
+			"sections_instructor": "dixon, david"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_title": "trans phen ii",
+			"sections_instructor": "dixon, david"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_title": "eng tech commun",
+			"sections_instructor": "derksen, ruth;wassink, berend"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_title": "eng tech commun",
+			"sections_instructor": "derksen, ruth;wassink, berend"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_title": "econ aspects",
+			"sections_instructor": "dreisinger, david"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_title": "econ aspects",
+			"sections_instructor": "dreisinger, david"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_title": "econ aspects",
+			"sections_instructor": "dreisinger, david"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_title": "econ aspects",
+			"sections_instructor": "dreisinger, david"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_title": "econ aspects",
+			"sections_instructor": "dreisinger, david"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_title": "econ aspects",
+			"sections_instructor": "dreisinger, david"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_title": "econ aspects",
+			"sections_instructor": "dreisinger, david"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_title": "sep sc aq met pr",
+			"sections_instructor": "dreisinger, david"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_title": "sep sc aq met pr",
+			"sections_instructor": "dreisinger, david"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_title": "sep sc aq met pr",
+			"sections_instructor": "dreisinger, david"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_title": "sep sc aq met pr",
+			"sections_instructor": "dreisinger, david"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_title": "sep sc aq met pr",
+			"sections_instructor": "dreisinger, david"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_title": "hydrmtllgcl rctr",
+			"sections_instructor": "dixon, david"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_title": "hydrmtllgcl rctr",
+			"sections_instructor": "dixon, david"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "chrmtc hrmny&vce",
+			"sections_instructor": "dodson, david"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "chrmtc hrmny&vce",
+			"sections_instructor": "dodson, david"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "chrmtc hrmny&vce",
+			"sections_instructor": "dodson, david"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "chrmtc hrmny&vce",
+			"sections_instructor": "dodson, david"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "chrmtc hrmny&vce",
+			"sections_instructor": "dodson, david"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "musical forms",
+			"sections_instructor": "dodson, david"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "musical forms",
+			"sections_instructor": "dodson, david"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "musical forms",
+			"sections_instructor": "dodson, david"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "musical forms",
+			"sections_instructor": "dodson, david"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "musical forms",
+			"sections_instructor": "dodson, david"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "intr schenkrn an",
+			"sections_instructor": "dodson, david"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "intr schenkrn an",
+			"sections_instructor": "dodson, david"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "intr schenkrn an",
+			"sections_instructor": "dodson, david"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "childhood & adol",
+			"sections_instructor": "danielson, donald"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "childhood & adol",
+			"sections_instructor": "danielson, donald"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "forensic psych",
+			"sections_instructor": "dutton, donald"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "forensic psych",
+			"sections_instructor": "dutton, donald"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "forensic psych",
+			"sections_instructor": "dutton, donald"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "forensic psych",
+			"sections_instructor": "dutton, donald"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "forensic psych",
+			"sections_instructor": "dutton, donald"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "forensic psych",
+			"sections_instructor": "dutton, donald"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "forensic psych",
+			"sections_instructor": "dutton, donald"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "forensic psych",
+			"sections_instructor": "dutton, donald"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "forensic psych",
+			"sections_instructor": "dutton, donald"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "forensic psych",
+			"sections_instructor": "dutton, donald"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "forensic psych",
+			"sections_instructor": "dutton, donald"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "intr probability",
+			"sections_instructor": "doucet, arnaud"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "intro tech thtr",
+			"sections_instructor": "darbellay, jennifer;eberle, robert francis;fedoruk, ronald"
+		}
+	]
+}

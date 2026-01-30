@@ -1,0 +1,22 @@
+{
+	"title": "and object",
+	"input": {
+		"WHERE": {
+			"AND": {
+				"LT": {
+					"sections_avg": -1
+				}
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sections_avg",
+				"sections_year"
+			],
+			"ORDER": "sections_avg"
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

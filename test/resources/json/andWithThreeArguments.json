@@ -1,0 +1,70 @@
+{
+	"title": "and with three arguments",
+	"input": {
+		"WHERE": {
+			"AND": [
+				{
+					"LT": {
+						"sections_avg": 50
+					}
+				},
+				{
+					"GT": {
+						"sections_avg": 25
+					}
+				},
+				{
+					"LT": {
+						"sections_year": 2000
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sections_avg",
+				"sections_year"
+			],
+			"ORDER": "sections_avg"
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_dept": "educ",
+			"sections_avg": 39.03,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 42.64,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "chbe",
+			"sections_avg": 44.88,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "hist",
+			"sections_avg": 46.33,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "hist",
+			"sections_avg": 47.13,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "comm",
+			"sections_avg": 49.07,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 49.47,
+			"sections_year": 1900
+		}
+	]
+}

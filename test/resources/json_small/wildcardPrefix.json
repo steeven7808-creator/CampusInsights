@@ -1,0 +1,9492 @@
+{
+	"title": "wildcard prefix",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"sections_title": "d*"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sections_title"
+			],
+			"ORDER": "sections_title"
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "d hg th & pr iii"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "d hg th & pr iii"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "d hg th & pr iii"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "d hg th & pr iii"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "d hg th & pr iii"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "d hg th & pr iii"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "d hg th & pr iii"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "d hg th & pr iii"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "d hg th & pr iii"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "d hg th & pr iii"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "d hg th & pr iii"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "d hg th & pr iii"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "d&fblck chem&app"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "d&fblck chem&app"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "d&fblck chem&app"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "d&fblck chem&app"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "d&fblck chem&app"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "d&fblck chem&app"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "d&fblck chem&app"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "d&fblck chem&app"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "d&fblck chem&app"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "d&fblck chem&app"
+		},
+		{
+			"sections_dept": "ital",
+			"sections_title": "dante's div com"
+		},
+		{
+			"sections_dept": "ital",
+			"sections_title": "dante's div com"
+		},
+		{
+			"sections_dept": "ital",
+			"sections_title": "dante's div com"
+		},
+		{
+			"sections_dept": "ital",
+			"sections_title": "dante's div com"
+		},
+		{
+			"sections_dept": "ital",
+			"sections_title": "dante's div com"
+		},
+		{
+			"sections_dept": "ital",
+			"sections_title": "dante's div com"
+		},
+		{
+			"sections_dept": "ital",
+			"sections_title": "dante's div com"
+		},
+		{
+			"sections_dept": "ital",
+			"sections_title": "dante's div com"
+		},
+		{
+			"sections_dept": "ital",
+			"sections_title": "dante's div com"
+		},
+		{
+			"sections_dept": "ital",
+			"sections_title": "dante's div com"
+		},
+		{
+			"sections_dept": "ital",
+			"sections_title": "dante's div com"
+		},
+		{
+			"sections_dept": "ital",
+			"sections_title": "dante's div com"
+		},
+		{
+			"sections_dept": "ital",
+			"sections_title": "dante's div com"
+		},
+		{
+			"sections_dept": "ital",
+			"sections_title": "dante's div com"
+		},
+		{
+			"sections_dept": "ital",
+			"sections_title": "dante's div com"
+		},
+		{
+			"sections_dept": "ital",
+			"sections_title": "dante's div com"
+		},
+		{
+			"sections_dept": "isci",
+			"sections_title": "darwin medicine"
+		},
+		{
+			"sections_dept": "isci",
+			"sections_title": "darwin medicine"
+		},
+		{
+			"sections_dept": "isci",
+			"sections_title": "darwin medicine"
+		},
+		{
+			"sections_dept": "isci",
+			"sections_title": "darwin medicine"
+		},
+		{
+			"sections_dept": "isci",
+			"sections_title": "darwin medicine"
+		},
+		{
+			"sections_dept": "isci",
+			"sections_title": "darwin medicine"
+		},
+		{
+			"sections_dept": "isci",
+			"sections_title": "darwin medicine"
+		},
+		{
+			"sections_dept": "isci",
+			"sections_title": "darwin medicine"
+		},
+		{
+			"sections_dept": "isci",
+			"sections_title": "darwin medicine"
+		},
+		{
+			"sections_dept": "isci",
+			"sections_title": "darwin medicine"
+		},
+		{
+			"sections_dept": "isci",
+			"sections_title": "darwin medicine"
+		},
+		{
+			"sections_dept": "isci",
+			"sections_title": "darwin medicine"
+		},
+		{
+			"sections_dept": "isci",
+			"sections_title": "darwin medicine"
+		},
+		{
+			"sections_dept": "isci",
+			"sections_title": "darwin medicine"
+		},
+		{
+			"sections_dept": "isci",
+			"sections_title": "darwin medicine"
+		},
+		{
+			"sections_dept": "isci",
+			"sections_title": "darwin medicine"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "darwin's fishes"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "darwin's fishes"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "darwin's fishes"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "darwin's fishes"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "darwin's fishes"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "darwin's fishes"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "darwin's fishes"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "darwin's fishes"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "darwin's fishes"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "darwin's fishes"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "darwin's fishes"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "darwin's fishes"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "darwin's fishes"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "darwin's fishes"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "darwin's fishes"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "darwin's fishes"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "darwin, evolutin"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "darwin, evolutin"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "darwin, evolutin"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "darwin, evolutin"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "darwin, evolutin"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "darwin, evolutin"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_title": "darwin, evolutn"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_title": "darwin, evolutn"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_title": "darwin, evolutn"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_title": "darwin, evolutn"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_title": "darwin, evolutn"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_title": "darwin, evolutn"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "data anl mec lab"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "data anl mec lab"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "data anl mec lab"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "data anl mec lab"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "data anl mec lab"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "data anl mec lab"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "data anl mec lab"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "data anl mec lab"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "data anl mec lab"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "data anl mec lab"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "data anl mec lab"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "data anl mec lab"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "data anl mec lab"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "data anl mec lab"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "data anl mec lab"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "data anl mec lab"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "data anl mec lab"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "data anl mec lab"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "data anl&mch eng"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "data anl&mch eng"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "data anl&mch eng"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "data anl&mch eng"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "data anl&mch eng"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "data anl&mch eng"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "data anl&mch eng"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "data anl&mch eng"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "data anl&mch eng"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "data anl&mch eng"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "data anl&mch eng"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "data anl&mch eng"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "data anl&mch eng"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "data anl&mch eng"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "data anl&mch eng"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "data anl&mch eng"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "data anl&mch eng"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "data anl&mch eng"
+		},
+		{
+			"sections_dept": "babs",
+			"sections_title": "data anly&utiliz"
+		},
+		{
+			"sections_dept": "babs",
+			"sections_title": "data anly&utiliz"
+		},
+		{
+			"sections_dept": "babs",
+			"sections_title": "data anly&utiliz"
+		},
+		{
+			"sections_dept": "babs",
+			"sections_title": "data anly&utiliz"
+		},
+		{
+			"sections_dept": "babs",
+			"sections_title": "data anly&utiliz"
+		},
+		{
+			"sections_dept": "babs",
+			"sections_title": "data anly&utiliz"
+		},
+		{
+			"sections_dept": "babs",
+			"sections_title": "data anly&utiliz"
+		},
+		{
+			"sections_dept": "babs",
+			"sections_title": "data anly&utiliz"
+		},
+		{
+			"sections_dept": "babs",
+			"sections_title": "data anly&utiliz"
+		},
+		{
+			"sections_dept": "babs",
+			"sections_title": "data anly&utiliz"
+		},
+		{
+			"sections_dept": "babs",
+			"sections_title": "data anly&utiliz"
+		},
+		{
+			"sections_dept": "babs",
+			"sections_title": "data anly&utiliz"
+		},
+		{
+			"sections_dept": "babs",
+			"sections_title": "data anly&utiliz"
+		},
+		{
+			"sections_dept": "babs",
+			"sections_title": "data anly&utiliz"
+		},
+		{
+			"sections_dept": "eece",
+			"sections_title": "data communicat"
+		},
+		{
+			"sections_dept": "eece",
+			"sections_title": "data communicat"
+		},
+		{
+			"sections_dept": "coec",
+			"sections_title": "data desc displ"
+		},
+		{
+			"sections_dept": "coec",
+			"sections_title": "data desc displ"
+		},
+		{
+			"sections_dept": "arst",
+			"sections_title": "database design"
+		},
+		{
+			"sections_dept": "arst",
+			"sections_title": "database design"
+		},
+		{
+			"sections_dept": "arst",
+			"sections_title": "database design"
+		},
+		{
+			"sections_dept": "arst",
+			"sections_title": "database design"
+		},
+		{
+			"sections_dept": "arst",
+			"sections_title": "database design"
+		},
+		{
+			"sections_dept": "arst",
+			"sections_title": "database design"
+		},
+		{
+			"sections_dept": "arst",
+			"sections_title": "database design"
+		},
+		{
+			"sections_dept": "arst",
+			"sections_title": "database design"
+		},
+		{
+			"sections_dept": "arst",
+			"sections_title": "database design"
+		},
+		{
+			"sections_dept": "arst",
+			"sections_title": "database design"
+		},
+		{
+			"sections_dept": "arst",
+			"sections_title": "database design"
+		},
+		{
+			"sections_dept": "arst",
+			"sections_title": "database design"
+		},
+		{
+			"sections_dept": "arst",
+			"sections_title": "database design"
+		},
+		{
+			"sections_dept": "arst",
+			"sections_title": "database design"
+		},
+		{
+			"sections_dept": "arst",
+			"sections_title": "database design"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "database design"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "database design"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "database design"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "database design"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "database design"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "database design"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "database design"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "database design"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "database design"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "database design"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "database design"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "database design"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "database design"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "database design"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "database design"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "database design"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "database design"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "database design"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "database design"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "database design"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "database design"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "database design"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "database design"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "database design"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "database design"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "database design"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "database design"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "database design"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "database design"
+		},
+		{
+			"sections_dept": "cics",
+			"sections_title": "database systems"
+		},
+		{
+			"sections_dept": "cics",
+			"sections_title": "database systems"
+		},
+		{
+			"sections_dept": "cics",
+			"sections_title": "database systems"
+		},
+		{
+			"sections_dept": "cics",
+			"sections_title": "database systems"
+		},
+		{
+			"sections_dept": "cics",
+			"sections_title": "database systems"
+		},
+		{
+			"sections_dept": "cics",
+			"sections_title": "database systems"
+		},
+		{
+			"sections_dept": "cics",
+			"sections_title": "database systems"
+		},
+		{
+			"sections_dept": "cics",
+			"sections_title": "database systems"
+		},
+		{
+			"sections_dept": "cics",
+			"sections_title": "database systems"
+		},
+		{
+			"sections_dept": "cics",
+			"sections_title": "database systems"
+		},
+		{
+			"sections_dept": "cics",
+			"sections_title": "database systems"
+		},
+		{
+			"sections_dept": "cics",
+			"sections_title": "database systems"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "database tech"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "database tech"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "database tech"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "database tech"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "database tech"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "database tech"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "database tech"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "database tech"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "database tech"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "database tech"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "database tech"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "database tech"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "database tech"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "database tech"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "database tech"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "database tech"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "database tech"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "database tech"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "database tech"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "dcmntg punjb can"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "dcmntg punjb can"
+		},
+		{
+			"sections_dept": "ba",
+			"sections_title": "decision making"
+		},
+		{
+			"sections_dept": "ba",
+			"sections_title": "decision making"
+		},
+		{
+			"sections_dept": "ba",
+			"sections_title": "decision making"
+		},
+		{
+			"sections_dept": "ba",
+			"sections_title": "decision making"
+		},
+		{
+			"sections_dept": "ba",
+			"sections_title": "decision making"
+		},
+		{
+			"sections_dept": "ba",
+			"sections_title": "decision making"
+		},
+		{
+			"sections_dept": "ba",
+			"sections_title": "decision making"
+		},
+		{
+			"sections_dept": "ba",
+			"sections_title": "decision making"
+		},
+		{
+			"sections_dept": "ba",
+			"sections_title": "decision making"
+		},
+		{
+			"sections_dept": "ba",
+			"sections_title": "decision making"
+		},
+		{
+			"sections_dept": "ba",
+			"sections_title": "decision making"
+		},
+		{
+			"sections_dept": "ba",
+			"sections_title": "decision making"
+		},
+		{
+			"sections_dept": "ba",
+			"sections_title": "decision making"
+		},
+		{
+			"sections_dept": "bams",
+			"sections_title": "decison analysis"
+		},
+		{
+			"sections_dept": "bams",
+			"sections_title": "decison analysis"
+		},
+		{
+			"sections_dept": "bams",
+			"sections_title": "decison analysis"
+		},
+		{
+			"sections_dept": "bams",
+			"sections_title": "decison analysis"
+		},
+		{
+			"sections_dept": "bams",
+			"sections_title": "decison analysis"
+		},
+		{
+			"sections_dept": "bams",
+			"sections_title": "decison analysis"
+		},
+		{
+			"sections_dept": "bams",
+			"sections_title": "decison analysis"
+		},
+		{
+			"sections_dept": "bams",
+			"sections_title": "decison analysis"
+		},
+		{
+			"sections_dept": "bams",
+			"sections_title": "decison analysis"
+		},
+		{
+			"sections_dept": "bams",
+			"sections_title": "decison analysis"
+		},
+		{
+			"sections_dept": "bams",
+			"sections_title": "decison analysis"
+		},
+		{
+			"sections_dept": "bams",
+			"sections_title": "decison analysis"
+		},
+		{
+			"sections_dept": "bams",
+			"sections_title": "decison analysis"
+		},
+		{
+			"sections_dept": "bams",
+			"sections_title": "decison analysis"
+		},
+		{
+			"sections_dept": "bams",
+			"sections_title": "decison analysis"
+		},
+		{
+			"sections_dept": "bams",
+			"sections_title": "decison analysis"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_title": "decol & femn mth"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_title": "decol & femn mth"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_title": "decol & femn mth"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_title": "decol & femn mth"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_title": "decol & femn mth"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_title": "decol & femn mth"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_title": "decol qual mthds"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_title": "decol qual mthds"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_title": "decol qual mthds"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_title": "decol qual mthds"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_title": "decol qual mthds"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_title": "decol qual mthds"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_title": "decol&fmnst pers"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_title": "decol&fmnst pers"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_title": "decol&fmnst pers"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_title": "decol&fmnst pers"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_title": "decol&fmnst pers"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_title": "decol&fmnst pers"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_title": "decol&fmnst pers"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_title": "decol&fmnst pers"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_title": "decol&fmnst pers"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "democratization"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "democratization"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "democratization"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "democratization"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "democratization"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "democratization"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "democratization"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "democratization"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dent ii"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dent ii"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dent traumatolgy"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dent traumatolgy"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dent traumatolgy"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dent traumatolgy"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dent traumatolgy"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dent traumatolgy"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dent traumatolgy"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dent traumatolgy"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "dentalhyg prac i"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "dentalhyg prac i"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "dentalhyg prac i"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "dentalhyg prac i"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "dentalhyg prac i"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "dentalhyg prac i"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "dentalhyg prac i"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "dentalhyg prac i"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "dentalhyg prac i"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "dentalhyg prac i"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "dentalhyg prac i"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "dentalhyg prac i"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "dentalhyg prac i"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "dentalhyg prac i"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry i"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry i"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry i"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry i"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry i"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry i"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry i"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry i"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry i"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry i"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry i"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry i"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry i"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry i"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry i"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry i"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry i"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry i"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry ii"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry ii"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry ii"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry ii"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry ii"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry ii"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry ii"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry ii"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry ii"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry ii"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry ii"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry ii"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry ii"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry ii"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry ii"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry ii"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry ii"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry iii"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry iii"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry iii"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry iii"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry iii"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry iii"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry iii"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry iii"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry iii"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry iii"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry iii"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry iii"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry iii"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry iii"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry iii"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry iii"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry iii"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry iii"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry iii"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry iii"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry iii"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry iii"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry iii"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry lv"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry lv"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry lv"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry lv"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry lv"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry lv"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry lv"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry lv"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry lv"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry lv"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry lv"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry lv"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry lv"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry lv"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry lv"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry lv"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry lv"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_title": "dentistry lv"
+		},
+		{
+			"sections_dept": "spha",
+			"sections_title": "des & measure 1"
+		},
+		{
+			"sections_dept": "spha",
+			"sections_title": "des & measure 1"
+		},
+		{
+			"sections_dept": "spha",
+			"sections_title": "des & measure 1"
+		},
+		{
+			"sections_dept": "spha",
+			"sections_title": "des & measure 1"
+		},
+		{
+			"sections_dept": "spha",
+			"sections_title": "des & measure 1"
+		},
+		{
+			"sections_dept": "spha",
+			"sections_title": "des & measure 1"
+		},
+		{
+			"sections_dept": "spha",
+			"sections_title": "des & measure 1"
+		},
+		{
+			"sections_dept": "spha",
+			"sections_title": "des & measure 1"
+		},
+		{
+			"sections_dept": "spha",
+			"sections_title": "des & measure 1"
+		},
+		{
+			"sections_dept": "spha",
+			"sections_title": "des & measure 1"
+		},
+		{
+			"sections_dept": "spha",
+			"sections_title": "des & measure 1"
+		},
+		{
+			"sections_dept": "spha",
+			"sections_title": "des & measure 1"
+		},
+		{
+			"sections_dept": "spha",
+			"sections_title": "des & measure 1"
+		},
+		{
+			"sections_dept": "spha",
+			"sections_title": "des & measure 1"
+		},
+		{
+			"sections_dept": "spha",
+			"sections_title": "des & measure 1"
+		},
+		{
+			"sections_dept": "spha",
+			"sections_title": "des & measure 1"
+		},
+		{
+			"sections_dept": "spha",
+			"sections_title": "des & measure 2"
+		},
+		{
+			"sections_dept": "spha",
+			"sections_title": "des & measure 2"
+		},
+		{
+			"sections_dept": "spha",
+			"sections_title": "des & measure 2"
+		},
+		{
+			"sections_dept": "spha",
+			"sections_title": "des & measure 2"
+		},
+		{
+			"sections_dept": "spha",
+			"sections_title": "des & measure 2"
+		},
+		{
+			"sections_dept": "spha",
+			"sections_title": "des & measure 2"
+		},
+		{
+			"sections_dept": "spha",
+			"sections_title": "des & measure 2"
+		},
+		{
+			"sections_dept": "spha",
+			"sections_title": "des & measure 2"
+		},
+		{
+			"sections_dept": "spha",
+			"sections_title": "des & measure 2"
+		},
+		{
+			"sections_dept": "spha",
+			"sections_title": "des & measure 2"
+		},
+		{
+			"sections_dept": "spha",
+			"sections_title": "des & measure 2"
+		},
+		{
+			"sections_dept": "spha",
+			"sections_title": "des & measure 2"
+		},
+		{
+			"sections_dept": "spha",
+			"sections_title": "des & measure 2"
+		},
+		{
+			"sections_dept": "spha",
+			"sections_title": "des & measure 2"
+		},
+		{
+			"sections_dept": "spha",
+			"sections_title": "des & measure 2"
+		},
+		{
+			"sections_dept": "spha",
+			"sections_title": "des & measure 2"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "des tech"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "des tech"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "des tech"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "des tech"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "des tech"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "des tech"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "des tech"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "des tech"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "des tech"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "des tech"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "des tech"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "des tech"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "des tech"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "des tech"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "des tech"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "des tech"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "des tech"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "des tech"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "des tech"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "des tech"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "des tech"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "des tech"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "des tech"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "des tech"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "des tech"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "des tech"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "des tech"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "des tech"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "des tech"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "des tech"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "des tech"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "des tech"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "des tech"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "des tech"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "des tech"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "des tech"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "des tech"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "des tech"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "des tech"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "des tech"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "des tech"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "des tech"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "des tech"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "des tech"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_title": "des tech"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "desig & analys 2"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "desig & analys 2"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "desig & analys 2"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "desig & analys 2"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "desig & analys 2"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "desig & analys 2"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "desig & analys 2"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "desig & analys 2"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "desig & analys 2"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "desig & analys 2"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "design & bioassy"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "design & bioassy"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "design & bioassy"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "design & bioassy"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "design & bioassy"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "design & bioassy"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "design & bioassy"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "design & bioassy"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_title": "design media 1"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_title": "design media 1"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_title": "design media 1"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_title": "design media 1"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_title": "design media 1"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_title": "design media 1"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_title": "design media 1"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_title": "design media 1"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_title": "design media 1"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_title": "design media 1"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_title": "design media 1"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_title": "design media 1"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_title": "design media 1"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_title": "design media 1"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_title": "design media 2"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_title": "design media 2"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_title": "design media 2"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_title": "design media 2"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_title": "design media 2"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_title": "design media 2"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_title": "design media 2"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_title": "design media 2"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_title": "design media 2"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_title": "design media 2"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_title": "design media 2"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_title": "design media 2"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_title": "design media 2"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_title": "design media 2"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_title": "design media i"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_title": "design media i"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_title": "design media i"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_title": "design media i"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_title": "design media i"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_title": "design media i"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_title": "design media ii"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_title": "design media ii"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_title": "design media ii"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_title": "design media ii"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "design project"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "design project"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "design project"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "design project"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "design project"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "design project"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "design project"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "design project"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "design project"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "design project"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "design project"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "design project"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "design project"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "design project"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "design project"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "design project"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "design project"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "design project"
+		},
+		{
+			"sections_dept": "rsot",
+			"sections_title": "dev effective pr"
+		},
+		{
+			"sections_dept": "rsot",
+			"sections_title": "dev effective pr"
+		},
+		{
+			"sections_dept": "rsot",
+			"sections_title": "dev effective pr"
+		},
+		{
+			"sections_dept": "rsot",
+			"sections_title": "dev effective pr"
+		},
+		{
+			"sections_dept": "rsot",
+			"sections_title": "dev effective pr"
+		},
+		{
+			"sections_dept": "rsot",
+			"sections_title": "dev effective pr"
+		},
+		{
+			"sections_dept": "rsot",
+			"sections_title": "dev effective pr"
+		},
+		{
+			"sections_dept": "rsot",
+			"sections_title": "dev effective pr"
+		},
+		{
+			"sections_dept": "rsot",
+			"sections_title": "dev effective pr"
+		},
+		{
+			"sections_dept": "rsot",
+			"sections_title": "dev effective pr"
+		},
+		{
+			"sections_dept": "rsot",
+			"sections_title": "dev effective pr"
+		},
+		{
+			"sections_dept": "rsot",
+			"sections_title": "dev effective pr"
+		},
+		{
+			"sections_dept": "rsot",
+			"sections_title": "dev effective pr"
+		},
+		{
+			"sections_dept": "rsot",
+			"sections_title": "dev effective pr"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "dev el sk df&hrd"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "dev el sk df&hrd"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "dev el sk df&hrd"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "dev el sk df&hrd"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "dev el sk df&hrd"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "dev el sk df&hrd"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "dev el sk df&hrd"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "dev el sk df&hrd"
+		},
+		{
+			"sections_dept": "geog",
+			"sections_title": "dev envnmt thght"
+		},
+		{
+			"sections_dept": "geog",
+			"sections_title": "dev envnmt thght"
+		},
+		{
+			"sections_dept": "geog",
+			"sections_title": "dev envnmt thght"
+		},
+		{
+			"sections_dept": "geog",
+			"sections_title": "dev envnmt thght"
+		},
+		{
+			"sections_dept": "geog",
+			"sections_title": "dev envnmt thght"
+		},
+		{
+			"sections_dept": "geog",
+			"sections_title": "dev envnmt thght"
+		},
+		{
+			"sections_dept": "geog",
+			"sections_title": "dev envnmt thght"
+		},
+		{
+			"sections_dept": "geog",
+			"sections_title": "dev envnmt thght"
+		},
+		{
+			"sections_dept": "geog",
+			"sections_title": "dev envnmt thght"
+		},
+		{
+			"sections_dept": "geog",
+			"sections_title": "dev envnmt thght"
+		},
+		{
+			"sections_dept": "geog",
+			"sections_title": "dev envnmt thght"
+		},
+		{
+			"sections_dept": "geog",
+			"sections_title": "dev envnmt thght"
+		},
+		{
+			"sections_dept": "geog",
+			"sections_title": "dev envnmt thght"
+		},
+		{
+			"sections_dept": "geog",
+			"sections_title": "dev envnmt thght"
+		},
+		{
+			"sections_dept": "geog",
+			"sections_title": "dev envnmt thght"
+		},
+		{
+			"sections_dept": "geog",
+			"sections_title": "dev envnmt thght"
+		},
+		{
+			"sections_dept": "geog",
+			"sections_title": "dev envnmt thght"
+		},
+		{
+			"sections_dept": "geog",
+			"sections_title": "dev envnmt thght"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "dev language dis"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "dev language dis"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "dev language dis"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "dev language dis"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "dev language dis"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "dev language dis"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "dev language dis"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "dev language dis"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "dev language dis"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "dev language dis"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "dev language dis"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "dev language dis"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "dev language dis"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "dev language dis"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "dev language dis"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "dev language dis"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "dev neuropsych"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "dev neuropsych"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "dev neuropsych"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "dev neuropsych"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "dev neuropsych"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "dev neuropsych"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "dev neuropsych"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "dev neuropsych"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "dev neuropsych"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "dev neuropsych"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "dev neuropsych"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "dev neuropsych"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "dev neuropsych"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "dev neuropsych"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "dev neuropsych"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "dev neuropsych"
+		},
+		{
+			"sections_dept": "medg",
+			"sections_title": "dev orign disord"
+		},
+		{
+			"sections_dept": "medg",
+			"sections_title": "dev orign disord"
+		},
+		{
+			"sections_dept": "medg",
+			"sections_title": "dev orign disord"
+		},
+		{
+			"sections_dept": "medg",
+			"sections_title": "dev orign disord"
+		},
+		{
+			"sections_dept": "medg",
+			"sections_title": "dev orign disord"
+		},
+		{
+			"sections_dept": "medg",
+			"sections_title": "dev orign disord"
+		},
+		{
+			"sections_dept": "rhsc",
+			"sections_title": "dev rehab prog"
+		},
+		{
+			"sections_dept": "rhsc",
+			"sections_title": "dev rehab prog"
+		},
+		{
+			"sections_dept": "rhsc",
+			"sections_title": "dev rehab prog"
+		},
+		{
+			"sections_dept": "rhsc",
+			"sections_title": "dev rehab prog"
+		},
+		{
+			"sections_dept": "rhsc",
+			"sections_title": "dev rehab prog"
+		},
+		{
+			"sections_dept": "rhsc",
+			"sections_title": "dev rehab prog"
+		},
+		{
+			"sections_dept": "rhsc",
+			"sections_title": "dev rehab prog"
+		},
+		{
+			"sections_dept": "rhsc",
+			"sections_title": "dev rehab prog"
+		},
+		{
+			"sections_dept": "rhsc",
+			"sections_title": "dev rehab prog"
+		},
+		{
+			"sections_dept": "rhsc",
+			"sections_title": "dev rehab prog"
+		},
+		{
+			"sections_dept": "rhsc",
+			"sections_title": "dev rehab prog"
+		},
+		{
+			"sections_dept": "rhsc",
+			"sections_title": "dev rehab prog"
+		},
+		{
+			"sections_dept": "rhsc",
+			"sections_title": "dev rehab prog"
+		},
+		{
+			"sections_dept": "rhsc",
+			"sections_title": "dev rehab prog"
+		},
+		{
+			"sections_dept": "rhsc",
+			"sections_title": "dev rehab prog"
+		},
+		{
+			"sections_dept": "rhsc",
+			"sections_title": "dev rehab prog"
+		},
+		{
+			"sections_dept": "rhsc",
+			"sections_title": "dev rehab prog"
+		},
+		{
+			"sections_dept": "rhsc",
+			"sections_title": "dev rehab prog"
+		},
+		{
+			"sections_dept": "rhsc",
+			"sections_title": "dev rehab prog"
+		},
+		{
+			"sections_dept": "rhsc",
+			"sections_title": "dev rehab prog"
+		},
+		{
+			"sections_dept": "rhsc",
+			"sections_title": "dev rehab prog"
+		},
+		{
+			"sections_dept": "rhsc",
+			"sections_title": "dev rehab prog"
+		},
+		{
+			"sections_dept": "rhsc",
+			"sections_title": "dev rehab prog"
+		},
+		{
+			"sections_dept": "rhsc",
+			"sections_title": "dev rehab prog"
+		},
+		{
+			"sections_dept": "rhsc",
+			"sections_title": "dev rehab prog"
+		},
+		{
+			"sections_dept": "rhsc",
+			"sections_title": "dev rehab prog"
+		},
+		{
+			"sections_dept": "rhsc",
+			"sections_title": "dev rehab prog"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "dev scale&measur"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "dev scale&measur"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "dev scale&measur"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "dev scale&measur"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "dev scale&measur"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "dev scale&measur"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_title": "dev wkshp/sem"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_title": "dev wkshp/sem"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_title": "dev wkshp/sem"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_title": "dev wkshp/sem"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_title": "dev wkshp/sem"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_title": "dev wkshp/sem"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_title": "dev wkshp/sem"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_title": "dev wkshp/sem"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_title": "dev wkshp/sem"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_title": "dev wkshp/sem"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_title": "dev wkshp/sem"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_title": "dev wkshp/sem"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_title": "dev wkshp/sem"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_title": "dev wkshp/sem"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_title": "dev wkshp/sem"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_title": "dev wkshp/sem"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_title": "dev wkshp/sem"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_title": "dev wkshp/sem"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_title": "dev wkshp/sem"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_title": "dev wkshp/sem"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_title": "dev wkshp/sem"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_title": "dev wkshp/sem"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_title": "dev wkshp/sem"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_title": "dev wkshp/sem"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_title": "dev wkshp/sem"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_title": "dev wkshp/sem"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_title": "dev wkshp/sem"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_title": "dev wkshp/sem"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_title": "dev wkshp/sem"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_title": "dev wkshp/sem"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_title": "dev wkshp/sem"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_title": "dev wkshp/sem"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_title": "dev wkshp/sem"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_title": "dev wkshp/sem"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_title": "dev wkshp/sem"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_title": "dev wkshp/sem"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_title": "dev wkshp/sem"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_title": "dev wkshp/sem"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_title": "dev wkshp/sem"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_title": "dev wkshp/sem"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_title": "dev wkshp/sem"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_title": "dev wkshp/sem"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_title": "dev wkshp/sem"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_title": "dev wkshp/sem"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_title": "dev wkshp/sem"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_title": "dev wkshp/sem"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_title": "dev wkshp/sem"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_title": "dev wkshp/sem"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_title": "dev wkshp/sem"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_title": "dev wkshp/sem"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_title": "dev wkshp/sem"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_title": "dev wkshp/sem"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_title": "dev wkshp/sem"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_title": "dev wkshp/sem"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_title": "dev wkshp/sem"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_title": "dev wkshp/sem"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_title": "dev wkshp/sem"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_title": "dev wkshp/sem"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_title": "dev wkshp/sem"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "developmtal biol"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "developmtal biol"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "developmtal biol"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "developmtal biol"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "developmtal biol"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "developmtal biol"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "developmtal biol"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "developmtal biol"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "developmtal biol"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "developmtal biol"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "developmtal biol"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "developmtal biol"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "developmtal biol"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "developmtal biol"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "developmtal biol"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "developmtal biol"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "developmtal biol"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "developmtal biol"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "devl trd chin th"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "devl trd chin th"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "devl trd chin th"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "devl trd chin th"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "devl trd chin th"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "devl trd chin th"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "devl trd chin th"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "devl trd chin th"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "devl trd chin th"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "devl trd chin th"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "devlpmt neurbiol"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "devlpmt neurbiol"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "devlpmt neurbiol"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "devlpmt neurbiol"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "devlpmt neurbiol"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "devlpmt neurbiol"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "devlpmt neurbiol"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "devlpmt neurbiol"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "devlpmt neurbiol"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "devlpmt neurbiol"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "devlpmt neurbiol"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "devlpmt neurbiol"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "devlpmt neurbiol"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "devlpmt neurbiol"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "devlpmt neurbiol"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "devlpmt neurbiol"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "devlpmt neurbiol"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "devlpmt neurbiol"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "devlpmt neurbiol"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "devlpmt neurbiol"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "devlpmt neurbiol"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "devlpmt neurbiol"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "devlpmt neurbiol"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "devlpmt neurbiol"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "devlpmt neurbiol"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "devlpmt neurbiol"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "devlpmt neurbiol"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_title": "devotional lit"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_title": "devotional lit"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_title": "devotional lit"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_title": "devotional lit"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "dgtl img & text"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "dgtl img & text"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "dgtl img & text"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "dgtl img & text"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "dgtl img & text"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "dgtl img & text"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "dgtl img & text"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "dgtl img & text"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "dgtl img & text"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "dgtl img & text"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "dgtl img & text"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "dgtl img & text"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "dgtl libraries"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "dgtl libraries"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "dgtl libraries"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "dgtl libraries"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "dgtl libraries"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "dgtl libraries"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "dgtl libraries"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "dgtl libraries"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "dgtl libraries"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "dgtl libraries"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "dgtl libraries"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "dgtl libraries"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "dgtl libraries"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "dgtl libraries"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "diag audio i"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "diag audio i"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "diag audio i"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "diag audio i"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "diag audio i"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "diag audio i"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "diag audio i"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "diag audio i"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "diag audio i"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "diag audio i"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "diag audio i"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "diag audio i"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "diag audio i"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "diag audio i"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "diag audio i"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "diag audio i"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "diag audio ii"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "diag audio ii"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "diag audio ii"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "diag audio ii"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "diag audio ii"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "diag audio ii"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "diag audio ii"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "diag audio ii"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "diag audio ii"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "diag audio ii"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "diag audio ii"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "diag audio ii"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "diag audio ii"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "diag audio ii"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "diag audio ii"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "diag audio ii"
+		},
+		{
+			"sections_dept": "phar",
+			"sections_title": "diag img & rdoph"
+		},
+		{
+			"sections_dept": "phar",
+			"sections_title": "diag img & rdoph"
+		},
+		{
+			"sections_dept": "phar",
+			"sections_title": "diag img & rdoph"
+		},
+		{
+			"sections_dept": "phar",
+			"sections_title": "diag img & rdoph"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "diamond expl"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "diamond expl"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "diamond expl"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "diamond expl"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "diamond expl"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "diamond expl"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "diatnc hrmny&vce"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "diatnc hrmny&vce"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "diatnc hrmny&vce"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "diatnc hrmny&vce"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "diatnc hrmny&vce"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "diatnc hrmny&vce"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "diatnc hrmny&vce"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "diatnc hrmny&vce"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "diatnc hrmny&vce"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "diatnc hrmny&vce"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "diatnc hrmny&vce"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "diatnc hrmny&vce"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "diatnc hrmny&vce"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "diatnc hrmny&vce"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "diatnc hrmny&vce"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "diatnc hrmny&vce"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "diatnc hrmny&vce"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff calculus"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff calculus"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff calculus"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff calculus"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff calculus"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff calculus"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff calculus"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff calculus"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff calculus"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff calculus"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff calculus"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff calculus"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff calculus"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff calculus"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff calculus"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff calculus"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff calculus"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff calculus"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff calculus"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff calculus"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff calculus"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff calculus"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff calculus"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff calculus"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff calculus"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff calculus"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff calculus"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff calculus"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff calculus"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff calculus"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff calculus"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff calculus"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff calculus"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff calculus"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff calculus"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations 2"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations 2"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations 2"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations 2"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations 2"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations 2"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations 2"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations 2"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations 2"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations 2"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations 2"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations 2"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations 2"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations 2"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations 2"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations 2"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations 2"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations 2"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations 2"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations 2"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations 2"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations 2"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations 2"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations 2"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations 2"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations 2"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations 2"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations 2"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations 2"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations 2"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations 2"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations 2"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations 2"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations 2"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations 2"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations 2"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations 2"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations 2"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations 2"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations 2"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations 2"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations 2"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations 2"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations 2"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations 2"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations 2"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations 2"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations 2"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations 2"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations 2"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations 2"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations 2"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations 2"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations 2"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations 2"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations 2"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations 2"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations 2"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations 2"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations 2"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff equations 2"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff geometry i"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff geometry i"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff geometry i"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff geometry i"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff geometry i"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff geometry i"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff geometry i"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff geometry i"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff geometry i"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff geometry i"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff geometry i"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff geometry i"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff geometry i"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff geometry i"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff geometry i"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff geometry i"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff geometry i"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "diff geometry i"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "differ calculus"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "differ calculus"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "differ calculus"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "differ calculus"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "differ calculus"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "differ calculus"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "differ calculus"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "differ calculus"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "differ calculus"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "differ calculus"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "differ calculus"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "differ calculus"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "differ calculus"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "differ calculus"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "differ calculus"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "differ calculus"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "differ calculus"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "differ calculus"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "differ calculus"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "differ calculus"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "difraction mthds"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "difraction mthds"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "difraction mthds"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "difraction mthds"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "difraction mthds"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "difraction mthds"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "difraction mthds"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "difraction mthds"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "difraction mthds"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "difraction mthds"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "difraction mthds"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "difraction mthds"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "difraction mthds"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "difraction mthds"
+		},
+		{
+			"sections_dept": "lfs",
+			"sections_title": "dig comm&tpcs ag"
+		},
+		{
+			"sections_dept": "lfs",
+			"sections_title": "dig comm&tpcs ag"
+		},
+		{
+			"sections_dept": "lfs",
+			"sections_title": "dig comm&tpcs ag"
+		},
+		{
+			"sections_dept": "lfs",
+			"sections_title": "dig comm&tpcs ag"
+		},
+		{
+			"sections_dept": "lfs",
+			"sections_title": "dig comm&tpcs ag"
+		},
+		{
+			"sections_dept": "lfs",
+			"sections_title": "dig comm&tpcs ag"
+		},
+		{
+			"sections_dept": "lfs",
+			"sections_title": "dig comm&tpcs ag"
+		},
+		{
+			"sections_dept": "lfs",
+			"sections_title": "dig comm&tpcs ag"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "dig media studio"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "dig media studio"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "dig media studio"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "dig media studio"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "dig media studio"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "dig media studio"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "dig media studio"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "dig media studio"
+		},
+		{
+			"sections_dept": "elec",
+			"sections_title": "dig sig&img prcs"
+		},
+		{
+			"sections_dept": "elec",
+			"sections_title": "dig sig&img prcs"
+		},
+		{
+			"sections_dept": "cpen",
+			"sections_title": "dig syst dsgn"
+		},
+		{
+			"sections_dept": "cpen",
+			"sections_title": "dig syst dsgn"
+		},
+		{
+			"sections_dept": "cpen",
+			"sections_title": "dig syst dsgn"
+		},
+		{
+			"sections_dept": "cpen",
+			"sections_title": "dig syst&mcrocom"
+		},
+		{
+			"sections_dept": "cpen",
+			"sections_title": "dig syst&mcrocom"
+		},
+		{
+			"sections_dept": "cpen",
+			"sections_title": "dig syst&mcrocom"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "digital arts"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "digital arts"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "digital arts"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "digital arts"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "digital arts"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "digital arts"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "digital arts"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "digital arts"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "digital arts"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "digital arts"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "digital arts"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "digital arts"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "digital arts"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "digital arts"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "digital arts"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "digital arts"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "digital arts"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "digital arts"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "digital arts"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "digital arts"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "digital arts"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "digital arts"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "digital arts"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "digital arts"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "digital arts"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "digital arts"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "digital arts"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "digital arts"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "digital arts i"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "digital arts i"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "digital arts i"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "digital arts i"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "digital arts i"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "digital arts i"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "digital arts i"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "digital arts i"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "digital arts i"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "digital arts i"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "digital arts i"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "digital arts i"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "digital arts i"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "digital arts i"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "digital arts i"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "digital arts i"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "digital arts i"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "digital arts i"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "digital arts ii"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "digital arts ii"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "digital arts ii"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "digital arts ii"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "digital arts ii"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "digital arts ii"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "digital arts ii"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "digital arts ii"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "digital arts ii"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "digital arts ii"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "digital arts ii"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "digital arts ii"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "digital arts ii"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "digital arts ii"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "digital arts ii"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "digital arts ii"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "digital arts ii"
+		},
+		{
+			"sections_dept": "elec",
+			"sections_title": "digital communic"
+		},
+		{
+			"sections_dept": "elec",
+			"sections_title": "digital communic"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "digtl med: intro"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "digtl med: intro"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "digtl med: intro"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "digtl med: intro"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "digtl med: intro"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "digtl med: intro"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "digtl med: intro"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "digtl med: intro"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "digtl med: intro"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "digtl med: intro"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "digtl med: intro"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "digtl med: intro"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "dinosaurs' earth"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "dinosaurs' earth"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "dinosaurs' earth"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "dinosaurs' earth"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "dinosaurs' earth"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "dinosaurs' earth"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "dinosaurs' earth"
+		},
+		{
+			"sections_dept": "kin",
+			"sections_title": "dir fld st sp&ph"
+		},
+		{
+			"sections_dept": "kin",
+			"sections_title": "dir fld st sp&ph"
+		},
+		{
+			"sections_dept": "kin",
+			"sections_title": "dir fld st sp&ph"
+		},
+		{
+			"sections_dept": "kin",
+			"sections_title": "dir fld st sp&ph"
+		},
+		{
+			"sections_dept": "kin",
+			"sections_title": "dir fld st sp&ph"
+		},
+		{
+			"sections_dept": "kin",
+			"sections_title": "dir fld st sp&ph"
+		},
+		{
+			"sections_dept": "kin",
+			"sections_title": "dir fld st sp&ph"
+		},
+		{
+			"sections_dept": "kin",
+			"sections_title": "dir fld st sp&ph"
+		},
+		{
+			"sections_dept": "kin",
+			"sections_title": "dir fld st sp&ph"
+		},
+		{
+			"sections_dept": "kin",
+			"sections_title": "dir fld st sp&ph"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "dir res project"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "dir rsrch proj"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "dir rsrch proj"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "directed reading"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "directed reading"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "directed reading"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "directed reading"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "directed reading"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "directed reading"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "directed reading"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "directed reading"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "directed reading"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "directed reading"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "directed reading"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "directed reading"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "directed reading"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "directed reading"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "directed reading"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "directed reading"
+		},
+		{
+			"sections_dept": "astr",
+			"sections_title": "directed researc"
+		},
+		{
+			"sections_dept": "astr",
+			"sections_title": "directed researc"
+		},
+		{
+			"sections_dept": "astr",
+			"sections_title": "directed researc"
+		},
+		{
+			"sections_dept": "astr",
+			"sections_title": "directed researc"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "directed studies"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "directed studies"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "directed studies"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "directed studies"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "directed studies"
+		},
+		{
+			"sections_dept": "rhsc",
+			"sections_title": "directed studies"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "directn & prod"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "directn & prod"
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_title": "dis and justice"
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_title": "dis and justice"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "disc lit int-sec"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "disc lit int-sec"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "discourse & talk"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "discourse & talk"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "discourse & talk"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "discourse & talk"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "discourse & talk"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "discourse & talk"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "discourse & talk"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "discourse & talk"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "discourse & talk"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "discourse & talk"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "discourse anyl"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "discourse anyl"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "discourse anyl"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "discourse anyl"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "discourse anyl"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "discourse anyl"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "discourse anyl"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "discourse anyl"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "discourse anyl"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "discourse anyl"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "discourse anyl"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "discourse anyl"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "discourse anyl"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "discourse anyl"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "discourse anyl"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "discourse anyl"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "discourse anyl"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "discourse anyl"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "discourse anyl"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "discourse anyl"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "discourse anyl"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "discourse anyl"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "discourse anyl"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "discourse anyl"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "discrete math"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "discrete math"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "discrete math"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "discrete math"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "discrete math"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "discrete math"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "discrete math"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "discrete math"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "discrete math"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "discrete math"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "discrete math"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "discrete math"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "disord sp prod"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "disord sp prod"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "disord sp prod"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "disord sp prod"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "disord sp prod"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "disord sp prod"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "disord sp prod"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "disord sp prod"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "disord sp prod"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "disord sp prod"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "disord sp prod"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "disord sp prod"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "disord sp prod"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "disord sp prod"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "disord sp prod"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "disord sp prod"
+		},
+		{
+			"sections_dept": "cpen",
+			"sections_title": "dist sftware app"
+		},
+		{
+			"sections_dept": "cpen",
+			"sections_title": "dist sftware app"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "distrbt'd systms"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "distrbt'd systms"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "distrbt'd systms"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "distrbt'd systms"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "distrbt'd systms"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "distrbt'd systms"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "distrbt'd systms"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "distrbt'd systms"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "distrbt'd systms"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "distrbt'd systms"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "distrbt'd systms"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "distrbt'd systms"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "distrbt'd systms"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "distrbt'd systms"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "distrbt'd systms"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "distrbt'd systms"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "distrbt'd systms"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "distrbt'd systms"
+		},
+		{
+			"sections_dept": "itst",
+			"sections_title": "div comedy trans"
+		},
+		{
+			"sections_dept": "itst",
+			"sections_title": "div comedy trans"
+		},
+		{
+			"sections_dept": "itst",
+			"sections_title": "div comedy trans"
+		},
+		{
+			"sections_dept": "itst",
+			"sections_title": "div comedy trans"
+		},
+		{
+			"sections_dept": "itst",
+			"sections_title": "div comedy trans"
+		},
+		{
+			"sections_dept": "itst",
+			"sections_title": "div comedy trans"
+		},
+		{
+			"sections_dept": "itst",
+			"sections_title": "div comedy trans"
+		},
+		{
+			"sections_dept": "itst",
+			"sections_title": "div comedy trans"
+		},
+		{
+			"sections_dept": "itst",
+			"sections_title": "div comedy trans"
+		},
+		{
+			"sections_dept": "itst",
+			"sections_title": "div comedy trans"
+		},
+		{
+			"sections_dept": "itst",
+			"sections_title": "div comedy trans"
+		},
+		{
+			"sections_dept": "itst",
+			"sections_title": "div comedy trans"
+		},
+		{
+			"sections_dept": "itst",
+			"sections_title": "div comedy trans"
+		},
+		{
+			"sections_dept": "itst",
+			"sections_title": "div comedy trans"
+		},
+		{
+			"sections_dept": "itst",
+			"sections_title": "div comedy trans"
+		},
+		{
+			"sections_dept": "itst",
+			"sections_title": "div comedy trans"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "div evol fishes"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "div evol fishes"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "div evol fishes"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "div evol fishes"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "div evol fishes"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "div evol fishes"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "div evol fishes"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "div evol fishes"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "div evol fishes"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "div evol fishes"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "div evol fishes"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "div evol fishes"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "div evol fishes"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "div evol fishes"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "div evol fishes"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "div evol fishes"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "div evol fishes"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "div evol fishes"
+		},
+		{
+			"sections_dept": "gpp",
+			"sections_title": "dmstc glbl polcy"
+		},
+		{
+			"sections_dept": "gpp",
+			"sections_title": "dmstc glbl polcy"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "dnt hyg try & pr"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "dnt hyg try & pr"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "dnt hyg try & pr"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "dnt hyg try & pr"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "dnt hyg try & pr"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "dnt hyg try & pr"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "dnt hyg try & pr"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "dnt hyg try & pr"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "dnt hyg try & pr"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "dnt hyg try & pr"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "dnt hyg try & pr"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "dnt hyg try & pr"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "dnt hyg try & pr"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "dnt hyg try & pr"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "dnt hyg try & pr"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "dnt hyg try & pr"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "dnt hyg try & pr"
+		},
+		{
+			"sections_dept": "lais",
+			"sections_title": "doc proseminar"
+		},
+		{
+			"sections_dept": "lais",
+			"sections_title": "doc proseminar"
+		},
+		{
+			"sections_dept": "lais",
+			"sections_title": "doc proseminar"
+		},
+		{
+			"sections_dept": "lais",
+			"sections_title": "doc proseminar"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "doctoral seminar"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "doctoral seminar"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "doctoral seminar"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "doctoral seminar"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "doctoral seminar"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "doctoral seminar"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "doctoral seminar"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "doctoral seminar"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "doctoral seminar"
+		},
+		{
+			"sections_dept": "russ",
+			"sections_title": "dostoevsky trnsl"
+		},
+		{
+			"sections_dept": "russ",
+			"sections_title": "dostoevsky trnsl"
+		},
+		{
+			"sections_dept": "russ",
+			"sections_title": "dostoevsky trnsl"
+		},
+		{
+			"sections_dept": "russ",
+			"sections_title": "dostoevsky trnsl"
+		},
+		{
+			"sections_dept": "russ",
+			"sections_title": "dostoevsky trnsl"
+		},
+		{
+			"sections_dept": "russ",
+			"sections_title": "dostoevsky trnsl"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "drama ideas i"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "drama ideas i"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "drama ideas i"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "drama ideas i"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "drama ideas i"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "drama ideas i"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "drama ideas i"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "drama ideas i"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "drama ideas i"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "drama ideas i"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "drama ideas ii"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "drama ideas ii"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "drama ideas ii"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "drama ideas ii"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "drama ideas ii"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "drama ideas ii"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "drama ideas ii"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "drama ideas ii"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "drama ideas ii"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "drama ideas ii"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "drama perform"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "drama perform"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "drama perform"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "drama perform"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "drama perform"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "drama perform"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "drama perform"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "drama perform"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "drama perform"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "drama perform"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "dramaturgy"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "dramaturgy"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "dramaturgy"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "dramaturgy"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "dramaturgy"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "dramaturgy"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "dramaturgy"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "dramaturgy"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "dramaturgy"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "dramaturgy"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "drawing"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "drawing"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "drawing"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "drawing"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "drawing"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "drawing"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "drawing"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "drawing"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "drawing"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "drawing"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "drawing"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "drawing"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "drawing"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "drawing"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "drawing"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "drawing"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "drawing"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "drawing"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "drawing"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "drawing"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "drawing"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "drawing"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "drawing"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "drawing"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "drawing"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "drawing"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "drawing"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "drawing"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "drawing"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "drawing"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "drawing"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "drawing"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "drawing"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "drawing"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "drawing"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "drawing"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "drawing"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "drawing"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "drawing"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "drg&behav nrosci"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "drg&behav nrosci"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "drg&behav nrosci"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "drg&behav nrosci"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "drg&behav nrosci"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "drg&behav nrosci"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "drg&behav nrosci"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "drg&behav nrosci"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "drg&behav nrosci"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "drg&behav nrosci"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "drg&behav nrosci"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "drg&behav nrosci"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "drg&behav nrosci"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "drg&behav nrosci"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "drg&behav nrosci"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "drg&behav nrosci"
+		},
+		{
+			"sections_dept": "mine",
+			"sections_title": "drill & blast"
+		},
+		{
+			"sections_dept": "mine",
+			"sections_title": "drill & blast"
+		},
+		{
+			"sections_dept": "mine",
+			"sections_title": "drill & blast"
+		},
+		{
+			"sections_dept": "mine",
+			"sections_title": "drill & blast"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "drug assay&phrmc"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "drug assay&phrmc"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "drug assay&phrmc"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "drug assay&phrmc"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "drug assay&phrmc"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "drug assay&phrmc"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "drug assay&phrmc"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "drug assay&phrmc"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "drug assay&phrmc"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "drug assay&phrmc"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "drug assay&phrmc"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "drug assay&phrmc"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "drug assay&phrmc"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "drug assay&phrmc"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "drug assay&phrmc"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "drug assay&phrmc"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "drug assay&phrmc"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "drug assay&phrmc"
+		},
+		{
+			"sections_dept": "phar",
+			"sections_title": "drug safety"
+		},
+		{
+			"sections_dept": "phar",
+			"sections_title": "drug safety"
+		},
+		{
+			"sections_dept": "phar",
+			"sections_title": "drug safety"
+		},
+		{
+			"sections_dept": "phar",
+			"sections_title": "drug safety"
+		},
+		{
+			"sections_dept": "phar",
+			"sections_title": "drug safety"
+		},
+		{
+			"sections_dept": "phar",
+			"sections_title": "drug safety"
+		},
+		{
+			"sections_dept": "phar",
+			"sections_title": "drug safety"
+		},
+		{
+			"sections_dept": "phar",
+			"sections_title": "drug safety"
+		},
+		{
+			"sections_dept": "phar",
+			"sections_title": "drug safety"
+		},
+		{
+			"sections_dept": "phar",
+			"sections_title": "drug safety"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "drugs & society"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "drugs & society"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "drugs & society"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "drugs & society"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "drugs & society"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "drugs & society"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "drugs & society"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "drugs & society"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "drugs &intercell"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "drugs &intercell"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "drugs &intercell"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "drugs &intercell"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "drugs &intercell"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "drugs &intercell"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "drugs &intercell"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "drugs &intercell"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "drugs &intercell"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "drugs &intercell"
+		},
+		{
+			"sections_dept": "phar",
+			"sections_title": "drugs hlth iii"
+		},
+		{
+			"sections_dept": "phar",
+			"sections_title": "drugs hlth iii"
+		},
+		{
+			"sections_dept": "phar",
+			"sections_title": "drugs hlth iv"
+		},
+		{
+			"sections_dept": "phar",
+			"sections_title": "drugs hlth iv"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_title": "ds intl forstry"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_title": "ds intl forstry"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "ds tec ii sc c&p"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "ds tec ii sc c&p"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "ds tec ii sc c&p"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "ds tec ii sc c&p"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "ds tec ii sc c&p"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "ds tec ii sc c&p"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "ds tec ii sc c&p"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "ds tec ii sc c&p"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "ds tec ii sc c&p"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "ds tec ii sc c&p"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "ds tec ii sc c&p"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_title": "ds tec ii sc c&p"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dsg wtr sply&wst"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dsg wtr sply&wst"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dsg wtr sply&wst"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dsg wtr sply&wst"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dsg wtr sply&wst"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dsg wtr sply&wst"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dsg wtr sply&wst"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dsg wtr sply&wst"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dsg wtr sply&wst"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dsg wtr sply&wst"
+		},
+		{
+			"sections_dept": "ends",
+			"sections_title": "dsg, med&rep"
+		},
+		{
+			"sections_dept": "ends",
+			"sections_title": "dsg, med&rep"
+		},
+		{
+			"sections_dept": "ends",
+			"sections_title": "dsg, med&rep"
+		},
+		{
+			"sections_dept": "ends",
+			"sections_title": "dsg, med&rep"
+		},
+		{
+			"sections_dept": "ends",
+			"sections_title": "dsg, med&rep"
+		},
+		{
+			"sections_dept": "ends",
+			"sections_title": "dsg, med&rep"
+		},
+		{
+			"sections_dept": "ends",
+			"sections_title": "dsg, med&rep"
+		},
+		{
+			"sections_dept": "ends",
+			"sections_title": "dsg, med&rep"
+		},
+		{
+			"sections_dept": "ends",
+			"sections_title": "dsg, med&rep"
+		},
+		{
+			"sections_dept": "ends",
+			"sections_title": "dsg, med&rep"
+		},
+		{
+			"sections_dept": "ends",
+			"sections_title": "dsg, med&rep"
+		},
+		{
+			"sections_dept": "ends",
+			"sections_title": "dsg, med&rep"
+		},
+		{
+			"sections_dept": "ends",
+			"sections_title": "dsg, med&rep"
+		},
+		{
+			"sections_dept": "ends",
+			"sections_title": "dsg, med&rep"
+		},
+		{
+			"sections_dept": "ends",
+			"sections_title": "dsg, med&rep"
+		},
+		{
+			"sections_dept": "ends",
+			"sections_title": "dsg, med&rep"
+		},
+		{
+			"sections_dept": "ends",
+			"sections_title": "dsg, med&rep"
+		},
+		{
+			"sections_dept": "ends",
+			"sections_title": "dsg, med&rep"
+		},
+		{
+			"sections_dept": "ends",
+			"sections_title": "dsg, med&rep"
+		},
+		{
+			"sections_dept": "ends",
+			"sections_title": "dsg, med&rep"
+		},
+		{
+			"sections_dept": "spph",
+			"sections_title": "dsgn clin trial"
+		},
+		{
+			"sections_dept": "spph",
+			"sections_title": "dsgn clin trial"
+		},
+		{
+			"sections_dept": "spph",
+			"sections_title": "dsgn clin trial"
+		},
+		{
+			"sections_dept": "spph",
+			"sections_title": "dsgn clin trial"
+		},
+		{
+			"sections_dept": "spph",
+			"sections_title": "dsgn clin trial"
+		},
+		{
+			"sections_dept": "spph",
+			"sections_title": "dsgn clin trial"
+		},
+		{
+			"sections_dept": "spph",
+			"sections_title": "dsgn clin trial"
+		},
+		{
+			"sections_dept": "spph",
+			"sections_title": "dsgn clin trial"
+		},
+		{
+			"sections_dept": "spph",
+			"sections_title": "dsgn clin trial"
+		},
+		{
+			"sections_dept": "spph",
+			"sections_title": "dsgn clin trial"
+		},
+		{
+			"sections_dept": "spph",
+			"sections_title": "dsgn clin trial"
+		},
+		{
+			"sections_dept": "spph",
+			"sections_title": "dsgn clin trial"
+		},
+		{
+			"sections_dept": "spph",
+			"sections_title": "dsgn clin trial"
+		},
+		{
+			"sections_dept": "spph",
+			"sections_title": "dsgn clin trial"
+		},
+		{
+			"sections_dept": "spph",
+			"sections_title": "dsgn clin trial"
+		},
+		{
+			"sections_dept": "spph",
+			"sections_title": "dsgn clin trial"
+		},
+		{
+			"sections_dept": "cogs",
+			"sections_title": "dsgn cog systems"
+		},
+		{
+			"sections_dept": "cogs",
+			"sections_title": "dsgn cog systems"
+		},
+		{
+			"sections_dept": "cogs",
+			"sections_title": "dsgn cog systems"
+		},
+		{
+			"sections_dept": "cogs",
+			"sections_title": "dsgn cog systems"
+		},
+		{
+			"sections_dept": "cogs",
+			"sections_title": "dsgn cog systems"
+		},
+		{
+			"sections_dept": "cogs",
+			"sections_title": "dsgn cog systems"
+		},
+		{
+			"sections_dept": "cogs",
+			"sections_title": "dsgn cog systems"
+		},
+		{
+			"sections_dept": "cogs",
+			"sections_title": "dsgn cog systems"
+		},
+		{
+			"sections_dept": "cogs",
+			"sections_title": "dsgn cog systems"
+		},
+		{
+			"sections_dept": "cogs",
+			"sections_title": "dsgn cog systems"
+		},
+		{
+			"sections_dept": "cogs",
+			"sections_title": "dsgn cog systems"
+		},
+		{
+			"sections_dept": "cogs",
+			"sections_title": "dsgn cog systems"
+		},
+		{
+			"sections_dept": "cogs",
+			"sections_title": "dsgn cog systems"
+		},
+		{
+			"sections_dept": "cogs",
+			"sections_title": "dsgn cog systems"
+		},
+		{
+			"sections_dept": "cogs",
+			"sections_title": "dsgn cog systems"
+		},
+		{
+			"sections_dept": "cogs",
+			"sections_title": "dsgn cog systems"
+		},
+		{
+			"sections_dept": "cogs",
+			"sections_title": "dsgn cog systems"
+		},
+		{
+			"sections_dept": "cogs",
+			"sections_title": "dsgn cog systems"
+		},
+		{
+			"sections_dept": "cogs",
+			"sections_title": "dsgn cog systems"
+		},
+		{
+			"sections_dept": "cogs",
+			"sections_title": "dsgn cog systems"
+		},
+		{
+			"sections_dept": "cogs",
+			"sections_title": "dsgn cog systems"
+		},
+		{
+			"sections_dept": "cogs",
+			"sections_title": "dsgn cog systems"
+		},
+		{
+			"sections_dept": "cogs",
+			"sections_title": "dsgn cog systems"
+		},
+		{
+			"sections_dept": "cogs",
+			"sections_title": "dsgn cog systems"
+		},
+		{
+			"sections_dept": "cogs",
+			"sections_title": "dsgn cog systems"
+		},
+		{
+			"sections_dept": "cogs",
+			"sections_title": "dsgn cog systems"
+		},
+		{
+			"sections_dept": "cogs",
+			"sections_title": "dsgn cog systems"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dsgn concr struc"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dsgn concr struc"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dsgn concr struc"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dsgn concr struc"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dsgn concr struc"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dsgn concr struc"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dsgn concr struc"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dsgn concr struc"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dsgn concr struc"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dsgn concr struc"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dsgn concr struc"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dsgn concr struc"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dsgn concr struc"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dsgn concr struc"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dsgn concr struc"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dsgn concr struc"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dsgn concr struc"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dsgn concr struc"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dsgn concr struc"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "dsgn stat prct"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "dsgn stat prct"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "dsgn stat prct"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "dsgn stat prct"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "dsgn stat prct"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "dsgn stat prct"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "dsgn stat prct"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "dsgn stat prct"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "dsgn stat prct"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "dsgn stat prct"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "dsgn stat prct"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "dsgn stat prct"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "dsgn stat prct"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "dsgn stat prct"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "dsgn stat prct"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "dsgn stat prct"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std 1: intr"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std 1: intr"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std 1: intr"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std 1: intr"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std 1: intr"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std 1: intr"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std 1: intr"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std 1: intr"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std 1: intr"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std 1: intr"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std 1: intr"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std 1: intr"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std 1: intr"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std 1: intr"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std 2: d mt"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std 2: d mt"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std 2: d mt"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std 2: d mt"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std 2: d mt"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std 2: d mt"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std 2: d mt"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std 2: d mt"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std 2: d mt"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std 2: d mt"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std 2: d mt"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std 2: d mt"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std 2: d mt"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std 2: d mt"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std 3: dev"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std 3: dev"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std 3: dev"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std 3: dev"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std 3: dev"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std 3: dev"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std 3: dev"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std 3: dev"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std 3: dev"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std 3: dev"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std 3: dev"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std 3: dev"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std 3: dev"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std 3: dev"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std 4: ur&r"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std 4: ur&r"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std 4: ur&r"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std 4: ur&r"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std 4: ur&r"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std 4: ur&r"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std 4: ur&r"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std 4: ur&r"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std 4: ur&r"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std 4: ur&r"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std 4: ur&r"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std 4: ur&r"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std 4: ur&r"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std 4: ur&r"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std 4: ur&r"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std 4: ur&r"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std 4: ur&r"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std 4: ur&r"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std 4: ur&r"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std 4: ur&r"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std 4: ur&r"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std 4: ur&r"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std 4: ur&r"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std 4: ur&r"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std i: intr"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std i: intr"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std ii: dmt"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn std ii: dmt"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dsgn tmbr struct"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dsgn tmbr struct"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dsgn tmbr struct"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dsgn tmbr struct"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dsgn tmbr struct"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dsgn tmbr struct"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dsgn tmbr struct"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dsgn tmbr struct"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dsgn tmbr struct"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dsgn tmbr struct"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dsgn tmbr struct"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dsgn tmbr struct"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dsgn tmbr struct"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dsgn tmbr struct"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "dsgn&anl expermt"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "dsgn&anl expermt"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "dsgn&anl expermt"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "dsgn&anl expermt"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "dsgn&anl expermt"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "dsgn&anl expermt"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "dsgn&anl expermt"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "dsgn&anl expermt"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "dsgn&anl expermt"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "dsgn&anl expermt"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "dsgn&anl expermt"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "dsgn&anl expermt"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "dsgn&anl expermt"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "dsgn&anl expermt"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "dsgn&anl expermt"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "dsgn&anl expermt"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "dsgn&anl smp&sub"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "dsgn&anl smp&sub"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "dsgn&anl smp&sub"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "dsgn&anl smp&sub"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "dsgn&anl smp&sub"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "dsgn&anl smp&sub"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "dsgn&anl smp&sub"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "dsgn&anl smp&sub"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "dsgn&anl smp&sub"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "dsgn&anl smp&sub"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "dsgn&anl smp&sub"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "dsgn&anl smp&sub"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "dsgn&anl smp&sub"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "dsgn&anl smp&sub"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "dsgn&anl smp&sub"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "dsgn&anl smp&sub"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn-res mthds"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn-res mthds"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn-res mthds"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn-res mthds"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn-res mthds"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn-res mthds"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn-res mthds"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn-res mthds"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn-res mthds"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn-res mthds"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn-res mthds"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn-res mthds"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn-res mthds"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn-res mthds"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn-res mthds"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsgn-res mthds"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "dsn mtd bus invt"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "dsn mtd bus invt"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "dsn mtd bus invt"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsn std iii:dev"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsn std iii:dev"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsn std iv: u&r"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsn std iv: u&r"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsn std iv: u&r"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_title": "dsn std iv: u&r"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "dt hg th & pr iv"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "dt hg th & pr iv"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "dt hg th & pr iv"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "dt hg th & pr iv"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "dt hg th & pr iv"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "dt hg th & pr iv"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "dt hg th & pr iv"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "dt hg th & pr iv"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "dt hg th & pr iv"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "dt hg th & pr iv"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "dt hg th & pr iv"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "dt hg th & pr iv"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "dt hy th & pr ii"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "dt hy th & pr ii"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "dt hy th & pr ii"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "dt hy th & pr ii"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "dt hy th & pr ii"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "dt hy th & pr ii"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "dt hy th & pr ii"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "dt hy th & pr ii"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "dt hy th & pr ii"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "dt hy th & pr ii"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "dt hy th & pr ii"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "dt hy th & pr ii"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "dt hy th & pr ii"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_title": "dt hy th & pr ii"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "dta anl at,er&oc"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "dta anl at,er&oc"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "dta anl at,er&oc"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "dta anl at,er&oc"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "dta anl at,er&oc"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "dta anl at,er&oc"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "dta anl at,er&oc"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "dta anl at,er&oc"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "dta anl at,er&oc"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "dta anl at,er&oc"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "dta anl at,er&oc"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "dta anl at,er&oc"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "dta&alg elec eng"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "dta&alg elec eng"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "dta&alg elec eng"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "dta&alg elec eng"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "dta&alg elec eng"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "dta&alg elec eng"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "dta&alg elec eng"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "dta&alg elec eng"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "dta&alg elec eng"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "dta&alg elec eng"
+		},
+		{
+			"sections_dept": "eece",
+			"sections_title": "dtc&est sgnl nse"
+		},
+		{
+			"sections_dept": "eece",
+			"sections_title": "dtc&est sgnl nse"
+		},
+		{
+			"sections_dept": "eece",
+			"sections_title": "dtc&est sgnl nse"
+		},
+		{
+			"sections_dept": "eece",
+			"sections_title": "dtc&est sgnl nse"
+		},
+		{
+			"sections_dept": "eece",
+			"sections_title": "dtc&est sgnl nse"
+		},
+		{
+			"sections_dept": "eece",
+			"sections_title": "dtc&est sgnl nse"
+		},
+		{
+			"sections_dept": "eece",
+			"sections_title": "dtc&est sgnl nse"
+		},
+		{
+			"sections_dept": "eece",
+			"sections_title": "dtc&est sgnl nse"
+		},
+		{
+			"sections_dept": "eece",
+			"sections_title": "dtc&est sgnl nse"
+		},
+		{
+			"sections_dept": "eece",
+			"sections_title": "dtc&est sgnl nse"
+		},
+		{
+			"sections_dept": "eece",
+			"sections_title": "dtc&est sgnl nse"
+		},
+		{
+			"sections_dept": "eece",
+			"sections_title": "dtc&est sgnl nse"
+		},
+		{
+			"sections_dept": "eece",
+			"sections_title": "dtc&est sgnl nse"
+		},
+		{
+			"sections_dept": "eece",
+			"sections_title": "dtc&est sgnl nse"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "dvl envrn thoght"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "dvl envrn thoght"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "dvl envrn thoght"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "dvl envrn thoght"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "dvl envrn thoght"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "dvl envrn thoght"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "dvl envrn thoght"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "dvl envrn thoght"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_title": "dvl frst institu"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_title": "dvl frst institu"
+		},
+		{
+			"sections_dept": "eece",
+			"sections_title": "dyn mdl elec"
+		},
+		{
+			"sections_dept": "eece",
+			"sections_title": "dyn mdl elec"
+		},
+		{
+			"sections_dept": "eece",
+			"sections_title": "dyn mdl elec"
+		},
+		{
+			"sections_dept": "eece",
+			"sections_title": "dyn mdl elec"
+		},
+		{
+			"sections_dept": "eece",
+			"sections_title": "dyn mdl elec"
+		},
+		{
+			"sections_dept": "eece",
+			"sections_title": "dyn mdl elec"
+		},
+		{
+			"sections_dept": "eece",
+			"sections_title": "dyn mdl elec"
+		},
+		{
+			"sections_dept": "eece",
+			"sections_title": "dyn mdl elec"
+		},
+		{
+			"sections_dept": "eece",
+			"sections_title": "dyn mdl elec"
+		},
+		{
+			"sections_dept": "eece",
+			"sections_title": "dyn mdl elec"
+		},
+		{
+			"sections_dept": "eece",
+			"sections_title": "dyn mdl elec"
+		},
+		{
+			"sections_dept": "eece",
+			"sections_title": "dyn mdl elec"
+		},
+		{
+			"sections_dept": "eece",
+			"sections_title": "dyn mdl elec"
+		},
+		{
+			"sections_dept": "eece",
+			"sections_title": "dyn mdl elec"
+		},
+		{
+			"sections_dept": "eece",
+			"sections_title": "dyn mdl elec"
+		},
+		{
+			"sections_dept": "eece",
+			"sections_title": "dyn mdl elec"
+		},
+		{
+			"sections_dept": "eece",
+			"sections_title": "dyn mdl elec"
+		},
+		{
+			"sections_dept": "eece",
+			"sections_title": "dyn mdl elec"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dynam struct 1"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dynam struct 1"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dynam struct 1"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dynam struct 1"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dynam struct 1"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dynam struct 1"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dynam struct 1"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dynam struct 1"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dynam struct 1"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dynam struct 1"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dynam struct 1"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dynam struct 1"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dynam struct 1"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dynam struct 1"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dynam struct 2"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dynam struct 2"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dynam struct 2"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dynam struct 2"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dynam struct 2"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dynam struct 2"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dynam struct 2"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dynam struct 2"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dynam struct 2"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "dynam struct 2"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "dynam syst model"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "dynam syst model"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "dynam syst model"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "dynam syst model"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "dynam syst model"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_title": "dynam syst model"
+		},
+		{
+			"sections_dept": "atsc",
+			"sections_title": "dynamic metrlogy"
+		},
+		{
+			"sections_dept": "atsc",
+			"sections_title": "dynamic metrlogy"
+		},
+		{
+			"sections_dept": "atsc",
+			"sections_title": "dynamic metrlogy"
+		},
+		{
+			"sections_dept": "atsc",
+			"sections_title": "dynamic metrlogy"
+		},
+		{
+			"sections_dept": "atsc",
+			"sections_title": "dynamic metrlogy"
+		},
+		{
+			"sections_dept": "atsc",
+			"sections_title": "dynamic metrlogy"
+		},
+		{
+			"sections_dept": "atsc",
+			"sections_title": "dynamic metrlogy"
+		},
+		{
+			"sections_dept": "atsc",
+			"sections_title": "dynamic metrlogy"
+		},
+		{
+			"sections_dept": "atsc",
+			"sections_title": "dynamic metrlogy"
+		},
+		{
+			"sections_dept": "atsc",
+			"sections_title": "dynamic metrlogy"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "dynamic ocgy"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "dynamic ocgy"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "dynamics & waves"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "dynamics & waves"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "dynamics & waves"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "dynamics & waves"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "dynamics & waves"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "dynamics & waves"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "dynamics & waves"
+		}
+	]
+}

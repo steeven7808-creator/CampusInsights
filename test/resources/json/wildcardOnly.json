@@ -1,0 +1,19 @@
+{
+	"title": "wildcard only",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"sections_title": "*"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sections_title"
+			],
+			"ORDER": "sections_title"
+		}
+	},
+	"errorExpected": true,
+	"expected": "ResultTooLargeError"
+}

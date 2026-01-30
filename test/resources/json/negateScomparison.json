@@ -1,0 +1,247 @@
+{
+	"title": "negate scomparison",
+	"input": {
+		"WHERE": {
+			"AND": [
+				{
+					"NOT": {
+						"IS": {
+							"sections_instructor": "*e*"
+						}
+					}
+				},
+				{
+					"IS": {
+						"sections_instructor": "d*"
+					}
+				},
+				{
+					"IS": {
+						"sections_instructor": "*d"
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sections_title",
+				"sections_instructor"
+			],
+			"ORDER": "sections_dept"
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_dept": "caps",
+			"sections_title": "intr grs hum ant",
+			"sections_instructor": "doroudi, majid"
+		},
+		{
+			"sections_dept": "caps",
+			"sections_title": "intr grs hum ant",
+			"sections_instructor": "doroudi, majid"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_title": "met thermodyn i",
+			"sections_instructor": "dixon, david"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_title": "met thermodyn i",
+			"sections_instructor": "dixon, david"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_title": "met thermodyn i",
+			"sections_instructor": "dixon, david"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_title": "met thermodyn i",
+			"sections_instructor": "dixon, david"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_title": "met thermodyn i",
+			"sections_instructor": "dixon, david"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_title": "met thermodyn i",
+			"sections_instructor": "dixon, david"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_title": "transport phen i",
+			"sections_instructor": "dixon, david"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_title": "transport phen i",
+			"sections_instructor": "dixon, david"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_title": "modlg matls proc",
+			"sections_instructor": "dixon, david"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_title": "modlg matls proc",
+			"sections_instructor": "dixon, david"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_title": "trans phen ii",
+			"sections_instructor": "dixon, david"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_title": "trans phen ii",
+			"sections_instructor": "dixon, david"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_title": "trans phen ii",
+			"sections_instructor": "dixon, david"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_title": "trans phen ii",
+			"sections_instructor": "dixon, david"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_title": "hydrmtllgcl rctr",
+			"sections_instructor": "dixon, david"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_title": "hydrmtllgcl rctr",
+			"sections_instructor": "dixon, david"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "chrmtc hrmny&vce",
+			"sections_instructor": "dodson, david"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "chrmtc hrmny&vce",
+			"sections_instructor": "dodson, david"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "chrmtc hrmny&vce",
+			"sections_instructor": "dodson, david"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "chrmtc hrmny&vce",
+			"sections_instructor": "dodson, david"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "chrmtc hrmny&vce",
+			"sections_instructor": "dodson, david"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "musical forms",
+			"sections_instructor": "dodson, david"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "musical forms",
+			"sections_instructor": "dodson, david"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "musical forms",
+			"sections_instructor": "dodson, david"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "musical forms",
+			"sections_instructor": "dodson, david"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "musical forms",
+			"sections_instructor": "dodson, david"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "intr schenkrn an",
+			"sections_instructor": "dodson, david"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "intr schenkrn an",
+			"sections_instructor": "dodson, david"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "intr schenkrn an",
+			"sections_instructor": "dodson, david"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "forensic psych",
+			"sections_instructor": "dutton, donald"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "forensic psych",
+			"sections_instructor": "dutton, donald"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "forensic psych",
+			"sections_instructor": "dutton, donald"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "forensic psych",
+			"sections_instructor": "dutton, donald"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "forensic psych",
+			"sections_instructor": "dutton, donald"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "forensic psych",
+			"sections_instructor": "dutton, donald"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "forensic psych",
+			"sections_instructor": "dutton, donald"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "forensic psych",
+			"sections_instructor": "dutton, donald"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "forensic psych",
+			"sections_instructor": "dutton, donald"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "forensic psych",
+			"sections_instructor": "dutton, donald"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "forensic psych",
+			"sections_instructor": "dutton, donald"
+		}
+	]
+}

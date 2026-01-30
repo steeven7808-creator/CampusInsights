@@ -1,0 +1,747 @@
+{
+	"title": "order small tiebreaker",
+	"input": {
+		"WHERE": {
+			"AND": [
+				{
+					"IS": {
+						"sections_dept": "*a*"
+					}
+				},
+				{
+					"GT": {
+						"sections_avg": 90
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_title",
+				"sections_dept",
+				"sections_id",
+				"historicalAvg"
+			],
+			"ORDER": {
+				"dir": "DOWN",
+				"keys": [
+					"historicalAvg",
+					"sections_dept"
+				]
+			}
+		},
+		"TRANSFORMATIONS": {
+			"GROUP": [
+				"sections_title",
+				"sections_dept",
+				"sections_id"
+			],
+			"APPLY": [
+				{
+					"historicalAvg": {
+						"AVG": "sections_avg"
+					}
+				}
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_title": "aud&non-txt arch",
+			"sections_dept": "arst",
+			"sections_id": "550",
+			"historicalAvg": 96.94
+		},
+		{
+			"sections_title": "algb geometry i",
+			"sections_dept": "math",
+			"sections_id": "532",
+			"historicalAvg": 96.24
+		},
+		{
+			"sections_title": "algb topology i",
+			"sections_dept": "math",
+			"sections_id": "527",
+			"historicalAvg": 95.21
+		},
+		{
+			"sections_title": "harmonic anal i",
+			"sections_dept": "math",
+			"sections_id": "541",
+			"historicalAvg": 94.66
+		},
+		{
+			"sections_title": "algebra ii",
+			"sections_dept": "math",
+			"sections_id": "502",
+			"historicalAvg": 94.44
+		},
+		{
+			"sections_title": "rsrch methdlgy",
+			"sections_dept": "aanb",
+			"sections_id": "504",
+			"historicalAvg": 94.44
+		},
+		{
+			"sections_title": "intr dyn systems",
+			"sections_dept": "math",
+			"sections_id": "552",
+			"historicalAvg": 94.33
+		},
+		{
+			"sections_title": "nat resrce mngmt",
+			"sections_dept": "plan",
+			"sections_id": "595",
+			"historicalAvg": 93.9
+		},
+		{
+			"sections_title": "audi prctcm iv",
+			"sections_dept": "audi",
+			"sections_id": "568",
+			"historicalAvg": 93.85
+		},
+		{
+			"sections_title": "comm disorders",
+			"sections_dept": "audi",
+			"sections_id": "522",
+			"historicalAvg": 93.41
+		},
+		{
+			"sections_title": "",
+			"sections_dept": "stat",
+			"sections_id": "560",
+			"historicalAvg": 93.35
+		},
+		{
+			"sections_title": "admn of injectns",
+			"sections_dept": "phar",
+			"sections_id": "403",
+			"historicalAvg": 93.35
+		},
+		{
+			"sections_title": "audi adv prc ii",
+			"sections_dept": "audi",
+			"sections_id": "568",
+			"historicalAvg": 93.22
+		},
+		{
+			"sections_title": "probability ii",
+			"sections_dept": "math",
+			"sections_id": "545",
+			"historicalAvg": 93.2
+		},
+		{
+			"sections_title": "lang dev life",
+			"sections_dept": "audi",
+			"sections_id": "585",
+			"historicalAvg": 93.2
+		},
+		{
+			"sections_title": "functional analy",
+			"sections_dept": "math",
+			"sections_id": "510",
+			"historicalAvg": 93.17
+		},
+		{
+			"sections_title": "pediatric audio",
+			"sections_dept": "audi",
+			"sections_id": "562",
+			"historicalAvg": 93.12
+		},
+		{
+			"sections_title": "phyl ms aud func",
+			"sections_dept": "audi",
+			"sections_id": "558",
+			"historicalAvg": 93.06
+		},
+		{
+			"sections_title": "diff geometry i",
+			"sections_dept": "math",
+			"sections_id": "525",
+			"historicalAvg": 93.05
+		},
+		{
+			"sections_title": "prt diff equa i",
+			"sections_dept": "math",
+			"sections_id": "516",
+			"historicalAvg": 93.02
+		},
+		{
+			"sections_title": "",
+			"sections_dept": "stat",
+			"sections_id": "589",
+			"historicalAvg": 93
+		},
+		{
+			"sections_title": "adv std min area",
+			"sections_dept": "arst",
+			"sections_id": "620",
+			"historicalAvg": 93
+		},
+		{
+			"sections_title": "combinatorial op",
+			"sections_dept": "math",
+			"sections_id": "523",
+			"historicalAvg": 92.89
+		},
+		{
+			"sections_title": "msc thesis",
+			"sections_dept": "path",
+			"sections_id": "549",
+			"historicalAvg": 92.88
+		},
+		{
+			"sections_title": "lie theory i",
+			"sections_dept": "math",
+			"sections_id": "534",
+			"historicalAvg": 92.81
+		},
+		{
+			"sections_title": "info tech&archvs",
+			"sections_dept": "arst",
+			"sections_id": "500",
+			"historicalAvg": 92.81
+		},
+		{
+			"sections_title": "prof prct larc",
+			"sections_dept": "larc",
+			"sections_id": "551",
+			"historicalAvg": 92.8
+		},
+		{
+			"sections_title": "complex analy",
+			"sections_dept": "math",
+			"sections_id": "508",
+			"historicalAvg": 92.69
+		},
+		{
+			"sections_title": "meas thry&integr",
+			"sections_dept": "math",
+			"sections_id": "507",
+			"historicalAvg": 92.63
+		},
+		{
+			"sections_title": "dev wkshp/sem",
+			"sections_dept": "adhe",
+			"sections_id": "329",
+			"historicalAvg": 92.56
+		},
+		{
+			"sections_title": "eng mtls lab",
+			"sections_dept": "apsc",
+			"sections_id": "279",
+			"historicalAvg": 92.51
+		},
+		{
+			"sections_title": "intro sanskrit",
+			"sections_dept": "sans",
+			"sections_id": "102",
+			"historicalAvg": 92.5
+		},
+		{
+			"sections_title": "amplification ii",
+			"sections_dept": "audi",
+			"sections_id": "557",
+			"historicalAvg": 92.45
+		},
+		{
+			"sections_title": "advancd span iii",
+			"sections_dept": "span",
+			"sections_id": "402",
+			"historicalAvg": 92.42
+		},
+		{
+			"sections_title": "complex analy i",
+			"sections_dept": "math",
+			"sections_id": "508",
+			"historicalAvg": 92.4
+		},
+		{
+			"sections_title": "msc major essay",
+			"sections_dept": "math",
+			"sections_id": "589",
+			"historicalAvg": 92.4
+		},
+		{
+			"sections_title": "probability i",
+			"sections_dept": "math",
+			"sections_id": "544",
+			"historicalAvg": 92.39
+		},
+		{
+			"sections_title": "hearing sci ii",
+			"sections_dept": "audi",
+			"sections_id": "515",
+			"historicalAvg": 92.24
+		},
+		{
+			"sections_title": "algebra i",
+			"sections_dept": "math",
+			"sections_id": "501",
+			"historicalAvg": 92.2
+		},
+		{
+			"sections_title": "tpcs path rsrch",
+			"sections_dept": "path",
+			"sections_id": "502",
+			"historicalAvg": 92.19
+		},
+		{
+			"sections_title": "sem medical anth",
+			"sections_dept": "anth",
+			"sections_id": "519",
+			"historicalAvg": 92.19
+		},
+		{
+			"sections_title": "as in s&s disord",
+			"sections_dept": "audi",
+			"sections_id": "577",
+			"historicalAvg": 92.13
+		},
+		{
+			"sections_title": "landsc plan&mgmt",
+			"sections_dept": "larc",
+			"sections_id": "541",
+			"historicalAvg": 92.07
+		},
+		{
+			"sections_title": "topics plnt bioc",
+			"sections_dept": "bota",
+			"sections_id": "528",
+			"historicalAvg": 92
+		},
+		{
+			"sections_title": "bndry-lyr metrly",
+			"sections_dept": "atsc",
+			"sections_id": "500",
+			"historicalAvg": 92
+		},
+		{
+			"sections_title": "fnd bdy dsgn:bsc",
+			"sections_dept": "anat",
+			"sections_id": "511",
+			"historicalAvg": 92
+		},
+		{
+			"sections_title": "cnt tme stchastc",
+			"sections_dept": "math",
+			"sections_id": "546",
+			"historicalAvg": 91.91
+		},
+		{
+			"sections_title": "tpcs appl biolgy",
+			"sections_dept": "apbi",
+			"sections_id": "490",
+			"historicalAvg": 91.86
+		},
+		{
+			"sections_title": "audi prctcm iii",
+			"sections_dept": "audi",
+			"sections_id": "567",
+			"historicalAvg": 91.81
+		},
+		{
+			"sections_title": "discrete math",
+			"sections_dept": "math",
+			"sections_id": "503",
+			"historicalAvg": 91.8
+		},
+		{
+			"sections_title": "sem r prpty dv&p",
+			"sections_dept": "plan",
+			"sections_id": "561",
+			"historicalAvg": 91.77
+		},
+		{
+			"sections_title": "elem number thry",
+			"sections_dept": "math",
+			"sections_id": "537",
+			"historicalAvg": 91.75
+		},
+		{
+			"sections_title": "stat infrnce i",
+			"sections_dept": "stat",
+			"sections_id": "460",
+			"historicalAvg": 91.73
+		},
+		{
+			"sections_title": "acquired lng dis",
+			"sections_dept": "audi",
+			"sections_id": "526",
+			"historicalAvg": 91.69
+		},
+		{
+			"sections_title": "fnc hmn ant h&n",
+			"sections_dept": "anat",
+			"sections_id": "512",
+			"historicalAvg": 91.67
+		},
+		{
+			"sections_title": "seminar",
+			"sections_dept": "phar",
+			"sections_id": "548",
+			"historicalAvg": 91.63
+		},
+		{
+			"sections_title": "mthds asymp anal",
+			"sections_dept": "math",
+			"sections_id": "550",
+			"historicalAvg": 91.62
+		},
+		{
+			"sections_title": "num anly prtl df",
+			"sections_dept": "math",
+			"sections_id": "521",
+			"historicalAvg": 91.56
+		},
+		{
+			"sections_title": "master's thesis",
+			"sections_dept": "arth",
+			"sections_id": "599",
+			"historicalAvg": 91.55
+		},
+		{
+			"sections_title": "dante's div com",
+			"sections_dept": "ital",
+			"sections_id": "403",
+			"historicalAvg": 91.5
+		},
+		{
+			"sections_title": "prob mgmt models",
+			"sections_dept": "bams",
+			"sections_id": "501",
+			"historicalAvg": 91.47
+		},
+		{
+			"sections_title": "audi adv prc i",
+			"sections_dept": "audi",
+			"sections_id": "567",
+			"historicalAvg": 91.42
+		},
+		{
+			"sections_title": "acous & art phon",
+			"sections_dept": "audi",
+			"sections_id": "513",
+			"historicalAvg": 91.4
+		},
+		{
+			"sections_title": "astronomical lab",
+			"sections_dept": "astr",
+			"sections_id": "405",
+			"historicalAvg": 91.4
+		},
+		{
+			"sections_title": "real analysis ii",
+			"sections_dept": "math",
+			"sections_id": "421",
+			"historicalAvg": 91.38
+		},
+		{
+			"sections_title": "forecasting mgmt",
+			"sections_dept": "babs",
+			"sections_id": "502",
+			"historicalAvg": 91.38
+		},
+		{
+			"sections_title": "hearng and noise",
+			"sections_dept": "audi",
+			"sections_id": "551",
+			"historicalAvg": 91.38
+		},
+		{
+			"sections_title": "urb dsgn thr&met",
+			"sections_dept": "plan",
+			"sections_id": "517",
+			"historicalAvg": 91.36
+		},
+		{
+			"sections_title": "sp-lg pth prc i",
+			"sections_dept": "audi",
+			"sections_id": "593",
+			"historicalAvg": 91.33
+		},
+		{
+			"sections_title": "analyt num thry",
+			"sections_dept": "math",
+			"sections_id": "539",
+			"historicalAvg": 91.29
+		},
+		{
+			"sections_title": "ptl dif eqn flud",
+			"sections_dept": "math",
+			"sections_id": "515",
+			"historicalAvg": 91.25
+		},
+		{
+			"sections_title": "honours thesis",
+			"sections_dept": "astr",
+			"sections_id": "449",
+			"historicalAvg": 91.25
+		},
+		{
+			"sections_title": "clin pharcknetcs",
+			"sections_dept": "phar",
+			"sections_id": "408",
+			"historicalAvg": 91.23
+		},
+		{
+			"sections_title": "pain res & thera",
+			"sections_dept": "phar",
+			"sections_id": "440",
+			"historicalAvg": 91.2
+		},
+		{
+			"sections_title": "shpbld proj mgmt",
+			"sections_dept": "name",
+			"sections_id": "524",
+			"historicalAvg": 91.16
+		},
+		{
+			"sections_title": "phar care aborig",
+			"sections_dept": "phar",
+			"sections_id": "457",
+			"historicalAvg": 91.13
+		},
+		{
+			"sections_title": "seminar",
+			"sections_dept": "path",
+			"sections_id": "535",
+			"historicalAvg": 91.12
+		},
+		{
+			"sections_title": "ord diff equtns",
+			"sections_dept": "math",
+			"sections_id": "255",
+			"historicalAvg": 91.1
+		},
+		{
+			"sections_title": "drug safety",
+			"sections_dept": "phar",
+			"sections_id": "406",
+			"historicalAvg": 91.06
+		},
+		{
+			"sections_title": "biolgy of cancer",
+			"sections_dept": "path",
+			"sections_id": "531",
+			"historicalAvg": 91
+		},
+		{
+			"sections_title": "plant molec lab",
+			"sections_dept": "bota",
+			"sections_id": "544",
+			"historicalAvg": 91
+		},
+		{
+			"sections_title": "tech mlc biol&ex",
+			"sections_dept": "path",
+			"sections_id": "547",
+			"historicalAvg": 90.99
+		},
+		{
+			"sections_title": "tpcs flu disord",
+			"sections_dept": "audi",
+			"sections_id": "576",
+			"historicalAvg": 90.97
+		},
+		{
+			"sections_title": "pertrb diff equa",
+			"sections_dept": "math",
+			"sections_id": "551",
+			"historicalAvg": 90.96
+		},
+		{
+			"sections_title": "com adult educ",
+			"sections_dept": "adhe",
+			"sections_id": "330",
+			"historicalAvg": 90.96
+		},
+		{
+			"sections_title": "lang dev&dis sch",
+			"sections_dept": "audi",
+			"sections_id": "575",
+			"historicalAvg": 90.95
+		},
+		{
+			"sections_title": "seminar",
+			"sections_dept": "path",
+			"sections_id": "635",
+			"historicalAvg": 90.94
+		},
+		{
+			"sections_title": "aural rehb i",
+			"sections_dept": "audi",
+			"sections_id": "528",
+			"historicalAvg": 90.92
+		},
+		{
+			"sections_title": "hist anth thght",
+			"sections_dept": "anth",
+			"sections_id": "500",
+			"historicalAvg": 90.92
+		},
+		{
+			"sections_title": "stat meth hd bio",
+			"sections_dept": "stat",
+			"sections_id": "540",
+			"historicalAvg": 90.9
+		},
+		{
+			"sections_title": "pharm mgmt",
+			"sections_dept": "phar",
+			"sections_id": "400",
+			"historicalAvg": 90.83
+		},
+		{
+			"sections_title": "intr mod diff ge",
+			"sections_dept": "math",
+			"sections_id": "425",
+			"historicalAvg": 90.81
+		},
+		{
+			"sections_title": "phono intervent",
+			"sections_dept": "audi",
+			"sections_id": "570",
+			"historicalAvg": 90.8
+		},
+		{
+			"sections_title": "diag audio ii",
+			"sections_dept": "audi",
+			"sections_id": "553",
+			"historicalAvg": 90.72
+		},
+		{
+			"sections_title": "adv conc pharmac",
+			"sections_dept": "phar",
+			"sections_id": "502",
+			"historicalAvg": 90.71
+		},
+		{
+			"sections_title": "sem in botany",
+			"sections_dept": "bota",
+			"sections_id": "501",
+			"historicalAvg": 90.71
+		},
+		{
+			"sections_title": "real analysis i",
+			"sections_dept": "math",
+			"sections_id": "420",
+			"historicalAvg": 90.57
+		},
+		{
+			"sections_title": "sp-lg pth pr iii",
+			"sections_dept": "audi",
+			"sections_id": "593",
+			"historicalAvg": 90.57
+		},
+		{
+			"sections_title": "urbn restructing",
+			"sections_dept": "plan",
+			"sections_id": "592",
+			"historicalAvg": 90.53
+		},
+		{
+			"sections_title": "cs phar sci iv",
+			"sections_dept": "phar",
+			"sections_id": "499",
+			"historicalAvg": 90.53
+		},
+		{
+			"sections_title": "mangmt info orgs",
+			"sections_dept": "arst",
+			"sections_id": "570",
+			"historicalAvg": 90.47
+		},
+		{
+			"sections_title": "biophys pharm i",
+			"sections_dept": "phar",
+			"sections_id": "321",
+			"historicalAvg": 90.45
+		},
+		{
+			"sections_title": "diag img & rdoph",
+			"sections_dept": "phar",
+			"sections_id": "518",
+			"historicalAvg": 90.43
+		},
+		{
+			"sections_title": "complex analysis",
+			"sections_dept": "math",
+			"sections_id": "440",
+			"historicalAvg": 90.43
+		},
+		{
+			"sections_title": "disord sp prod",
+			"sections_dept": "audi",
+			"sections_id": "524",
+			"historicalAvg": 90.38
+		},
+		{
+			"sections_title": "tech stat conslt",
+			"sections_dept": "stat",
+			"sections_id": "550",
+			"historicalAvg": 90.29
+		},
+		{
+			"sections_title": "intermd sanskrit",
+			"sections_dept": "sans",
+			"sections_id": "200",
+			"historicalAvg": 90.29
+		},
+		{
+			"sections_title": "adv gsat concept",
+			"sections_dept": "gsat",
+			"sections_id": "502",
+			"historicalAvg": 90.29
+		},
+		{
+			"sections_title": "pharmacokinetics",
+			"sections_dept": "phar",
+			"sections_id": "315",
+			"historicalAvg": 90.26
+		},
+		{
+			"sections_title": "med lab toxiclgy",
+			"sections_dept": "path",
+			"sections_id": "407",
+			"historicalAvg": 90.25
+		},
+		{
+			"sections_title": "mltvar&vctr calc",
+			"sections_dept": "math",
+			"sections_id": "217",
+			"historicalAvg": 90.25
+		},
+		{
+			"sections_title": "complex fluids",
+			"sections_dept": "math",
+			"sections_id": "559",
+			"historicalAvg": 90.24
+		},
+		{
+			"sections_title": "app mng scie i",
+			"sections_dept": "bams",
+			"sections_id": "500",
+			"historicalAvg": 90.23
+		},
+		{
+			"sections_title": "adul educ",
+			"sections_dept": "adhe",
+			"sections_id": "412",
+			"historicalAvg": 90.17
+		},
+		{
+			"sections_title": "adv speech scie",
+			"sections_dept": "audi",
+			"sections_id": "583",
+			"historicalAvg": 90.12
+		},
+		{
+			"sections_title": "urban transport",
+			"sections_dept": "plan",
+			"sections_id": "580",
+			"historicalAvg": 90.08
+		}
+	]
+}
