@@ -36,8 +36,7 @@ logical operators, and projection over ingested datasets.
 
 ### Example Query
 
-The following query returns all courses with an average grade greater than 85,
-projecting selected fields and ordering results by average grade.
+The following query returns all courses with an average grade greater than 85, projecting selected fields and ordering results by average grade.
 
 ```json
 {
@@ -51,6 +50,7 @@ projecting selected fields and ordering results by average grade.
     "ORDER": "courses_avg"
   }
 }
+```
 
 ## Tech Stack
 
@@ -87,12 +87,13 @@ CampusInsights/
 ├── package.json        # Project dependencies and scripts
 ├── tsconfig.json       # TypeScript configuration
 └── README.md
+```
 
 ## How to Run
 
-```md
 ```bash
 yarn install
 yarn build
 yarn start
+
 
