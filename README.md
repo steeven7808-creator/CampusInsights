@@ -75,8 +75,6 @@ projecting selected fields and ordering results by average grade.
 - Automated unit and integration tests (Mocha / Chai)
 
 
----
-
 ## Project Structure
 
 ```text
